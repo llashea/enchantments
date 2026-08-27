@@ -1,0 +1,59 @@
+{
+ "_comment": "Named lakes along the mapped traverse, exported 2026-08-27 from the app dataset (water.seed.json — OSM-derived coordinates, mapped positions, not field-verified). For the website map figure.",
+ "lakes": [
+  {
+   "name": "Colchuck Lake",
+   "lat": 47.493152,
+   "lon": -120.833794,
+   "routeKm": 6.42
+  },
+  {
+   "name": "Little Colchuck Lake",
+   "lat": 47.493511,
+   "lon": -120.837991,
+   "routeKm": 6.36
+  },
+  {
+   "name": "Tranquil Lake",
+   "lat": 47.48098,
+   "lon": -120.818053,
+   "routeKm": 9.35
+  },
+  {
+   "name": "Inspiration Lake",
+   "lat": 47.48225,
+   "lon": -120.801064,
+   "routeKm": 11.42
+  },
+  {
+   "name": "Perfection Lake",
+   "lat": 47.480206,
+   "lon": -120.797163,
+   "routeKm": 12.29
+  },
+  {
+   "name": "Sprite Lake",
+   "lat": 47.478817,
+   "lon": -120.794608,
+   "routeKm": 12.45
+  },
+  {
+   "name": "Leprechaun Lake",
+   "lat": 47.478551,
+   "lon": -120.786621,
+   "routeKm": 13.21
+  },
+  {
+   "name": "Lake Viviane",
+   "lat": 47.482487,
+   "lon": -120.78378,
+   "routeKm": 13.49
+  },
+  {
+   "name": "Snow Lakes",
+   "lat": 47.483065,
+   "lon": -120.749933,
+   "routeKm": 17.77
+  }
+ ]
+}
