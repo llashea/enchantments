@@ -6,3 +6,5 @@
 @media print{.skip,.skipLink,[class*=skip]{display:none!important}}
 
 @media print{.sectionHead p,.faqList details{break-inside:avoid}}
+
+@media print{.heroPhoto img{filter:none!important}img{break-inside:avoid}.hero{min-height:420px}}
