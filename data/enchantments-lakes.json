@@ -1,5 +1,5 @@
 {
- "_comment": "Named lakes along the mapped traverse, exported 2026-08-27 from the app dataset (water.seed.json — OSM-derived coordinates, mapped positions, not field-verified). For the website map figure.",
+ "_comment": "Named lakes along the mapped traverse, exported 2026-08-27, Nada Lake added 2026-08-28 (OSM relation 11756016) from the app dataset (water.seed.json — OSM-derived coordinates, mapped positions, not field-verified). For the website map figure.",
  "lakes": [
   {
    "name": "Colchuck Lake",
@@ -54,6 +54,12 @@
    "lat": 47.483065,
    "lon": -120.749933,
    "routeKm": 17.77
+  },
+  {
+   "name": "Nada Lake",
+   "lat": 47.4945,
+   "lon": -120.7406,
+   "routeKm": 19.52
   }
  ]
 }
