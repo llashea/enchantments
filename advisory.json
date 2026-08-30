@@ -1,0 +1,19 @@
+{
+  "_comment": "Human-curated conditions advisory for the Enchantments Traverse Planner app (BACKLOG B.00, restrictions/closures half). RULES: every update re-reads the sources and bumps checkedOn — the date IS the claim; titles name the order, text states only what the order states; no danger verdicts; incidents (active fires) are NOT written here — the app's fires feed carries those. Edit by hand, verify at the sourceUrl, push.",
+  "schema": 1,
+  "checkedOn": "2026-08-30",
+  "items": [
+    {
+      "id": "stage2-2026",
+      "title": "Stage 2 fire restrictions — forest-wide",
+      "text": "No wood, charcoal, or briquette fires anywhere on the forest, wilderness included, since July 17, 2026. Pressurized gas stoves are allowed. Forest Order 06-17-00-2026-21.",
+      "sourceUrl": "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts"
+    },
+    {
+      "id": "permit-area-2026-08",
+      "title": "Enchantment Permit Area — no closure order listed",
+      "text": "As of the checked date, the forest alerts page lists no closure order for the permit area or its trailheads. Wildfires are active in the region — check the fires list and the road links before you drive.",
+      "sourceUrl": "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts"
+    }
+  ]
+}
