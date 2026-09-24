@@ -1,18 +1,24 @@
 {
   "_comment": "Human-curated conditions advisory for the Enchantments Traverse Planner app (BACKLOG B.00, restrictions/closures half). RULES: every update re-reads the sources and bumps checkedOn — the date IS the claim; titles name the order, text states only what the order states; no danger verdicts; incidents (active fires) are NOT written here — the app's fires feed carries those. Edit by hand, verify at the sourceUrl, push.",
   "schema": 1,
-  "checkedOn": "2026-08-30",
+  "checkedOn": "2026-09-24",
   "items": [
     {
-      "id": "stage2-2026",
-      "title": "Stage 2 fire restrictions — forest-wide",
-      "text": "No wood, charcoal, or briquette fires anywhere on the forest, wilderness included, since July 17, 2026. Pressurized gas stoves are allowed. Forest Order 06-17-00-2026-21.",
-      "sourceUrl": "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts"
+      "id": "fire-restrictions-lifted-2026-09",
+      "title": "Fire restrictions lifted — forest-wide, September 18, 2026",
+      "text": "The forest rescinded all public-use fire restrictions on September 18, 2026 (Forest Order 06-17-00-2026-16 terminated; the Stage 2 order 06-17-00-2026-21 is no longer listed). The permit area's own rule stands: no fires above 5,000 feet or within 1/2 mile of any lake, and no campfires on the Stuart Lake, Colchuck Lake and Snow Lakes trails. Pressurized gas stoves are allowed.",
+      "sourceUrl": "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts/termination-stage-1-public-use-restrictions-and-campfire-ban"
     },
     {
-      "id": "permit-area-2026-08",
+      "id": "icicle-road-7600-closure-2026",
+      "title": "Icicle Road (FSR 7600) — storm-damage closure order through December 31, 2027",
+      "text": "Forest Order 06-17-07-2026-11 (effective May 20, 2026, through December 31, 2027) closes Forest System Road 7600 'starting in Sec. 1, T. 24 N., R. 15 E and continues to the end.' The forest's road table, as of September 3, 2026, describes the damage as 'beginning near Eightmile' (landslides, washouts) and lists Eightmile Road 7601 to Stuart Lake Trailhead as open. Snow Lakes Trailhead is at mile 4.3 of Icicle Road, below the Eightmile turnoff. The order names neither trailhead. Check the road links before you drive.",
+      "sourceUrl": "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts/storm-damaged-roads-closure-wenatchee-river-district"
+    },
+    {
+      "id": "permit-area-2026-09",
       "title": "Enchantment Permit Area — no closure order listed",
-      "text": "As of the checked date, the forest alerts page lists no closure order for the permit area or its trailheads. Wildfires are active in the region — check the fires list and the road links before you drive.",
+      "text": "As of the checked date, the forest alerts page lists no closure order for the permit area or its trailheads. The Little Giant Fire closure (order 06-17-07-2026-40, September 3 to October 31, 2026) does not reach Icicle Road, FSR 7601, the Enchantments or the Alpine Lakes Wilderness. Wildfires remain active in the region — check the fires list and the road links before you drive.",
       "sourceUrl": "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts"
     }
   ]
