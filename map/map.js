@@ -264,7 +264,8 @@
     miles: ['miles-circle', 'miles-label'],
     eightmile: ['eightmile-casing', 'eightmile-line', 'passes-eightmile'],
     trails: ['other-trails', 'other-trails-labels'],
-    contours: ['contours-line', 'contours-index', 'contours-label']
+    contours: ['contours-line', 'contours-index', 'contours-label'],
+    shading: ['hillshade-context', 'hillshade-detail']
   };
   function setVisible(ids, visible) {
     ids.forEach(function (id) {
@@ -273,6 +274,28 @@
   }
 
   function addOverlays(route, eightmile, zones, points) {
+    // Terrain shading: the app's own hillshade rasters (ENCHANTMENTSAPP
+    // scripts/build-hillshade.py from AWS terrain tiles): a z10 context image
+    // across the region and a z12 image over the corridor, the context
+    // alpha-holed under the detail so the overlap never double-darkens. Drawn
+    // under the water fill and every line so the basemap keeps its labels.
+    // Leah on the live page: "shading would be better so you can see
+    // higher/lower elev better."
+    var HILLSHADE = [
+      { id: 'hillshade-context', file: 'enchantments-hillshade-context.png', b: { west: -125.15625, south: 44.590467, east: -117.421875, north: 50.736455 } },
+      { id: 'hillshade-detail', file: 'enchantments-hillshade-detail.png', b: { west: -121.201172, south: 47.219568, east: -120.322266, north: 47.813155 } }
+    ];
+    var styleLayers = map.getStyle().layers;
+    var firstLine = styleLayers.filter(function (l) { return l.type === 'line'; })[0];
+    var shadeBefore = map.getLayer('water') ? 'water' : (firstLine ? firstLine.id : undefined);
+    HILLSHADE.forEach(function (h) {
+      map.addSource(h.id, {
+        type: 'image', url: DATA + h.file,
+        coordinates: [[h.b.west, h.b.north], [h.b.east, h.b.north], [h.b.east, h.b.south], [h.b.west, h.b.south]]
+      });
+      map.addLayer({ id: h.id, type: 'raster', source: h.id, paint: { 'raster-opacity': 0.55, 'raster-fade-duration': 0 } }, shadeBefore);
+    });
+
     var lines = { traverse: route.trail };
     eightmile.routes.forEach(function (r) { lines[r.id] = r.trail; });
 
@@ -353,17 +376,6 @@
       paint: { 'text-color': '#2f4a36', 'text-halo-color': HALO, 'text-halo-width': 1.3 }
     });
 
-    // Zone labels.
-    map.addLayer({
-      id: 'zones-label', type: 'symbol', source: 'zone-centroids', minzoom: 9,
-      layout: {
-        'text-field': ['get', 'label'], 'text-font': ['Noto Sans Medium'],
-        'text-size': ['interpolate', ['linear'], ['zoom'], 9, 11, 13, 15],
-        'text-letter-spacing': 0.06, 'text-transform': 'uppercase', 'text-max-width': 8
-      },
-      paint: { 'text-color': ['get', 'color'], 'text-halo-color': HALO, 'text-halo-width': 1.6, 'text-opacity': 0.9 }
-    });
-
     // Points.
     var features = [];
     points.lakes.forEach(function (p) { features.push(pointFeature(Object.assign({ kind: 'lake' }, p), lines)); });
@@ -383,7 +395,10 @@
       layout: {
         'text-field': ['get', 'name'], 'text-font': ['Noto Sans Italic'],
         'text-size': ['interpolate', ['linear'], ['zoom'], 10.5, 10.5, 14, 13],
-        'text-anchor': 'left', 'text-offset': [0.8, 0], 'text-optional': true, 'text-max-width': 8
+        'text-variable-anchor': ['left', 'right', 'top', 'bottom'], 'text-radial-offset': 0.7,
+        'text-justify': 'auto', 'text-optional': true, 'text-max-width': 8,
+        // Lower key places first: the main lake before its "Little" neighbour.
+        'symbol-sort-key': ['case', ['in', 'Little', ['get', 'name']], 2, 1]
       },
       paint: { 'text-color': '#175f7c', 'text-halo-color': HALO, 'text-halo-width': 1.4 }
     });
@@ -428,6 +443,20 @@
       },
       paint: { 'text-color': '#123f27', 'text-halo-color': HALO, 'text-halo-width': 1.5 }
     });
+
+    // Zone labels, added last on purpose: MapLibre places symbols from the top-most
+    // layer down, so the zone name wins the collision and the lake names move around it
+    // (Leah on the live page: "colchuck not clear").
+    map.addLayer({
+      id: 'zones-label', type: 'symbol', source: 'zone-centroids', minzoom: 9,
+      layout: {
+        'text-field': ['get', 'label'], 'text-font': ['Noto Sans Medium'],
+        'text-size': ['interpolate', ['linear'], ['zoom'], 9, 11, 13, 15],
+        'text-letter-spacing': 0.06, 'text-transform': 'uppercase', 'text-max-width': 8
+      },
+      paint: { 'text-color': ['get', 'color'], 'text-halo-color': HALO, 'text-halo-width': 1.6, 'text-opacity': 0.9 }
+    });
+
 
     // Popups.
     ['lakes-circle', 'trailheads-circle', 'passes-icon', 'passes-eightmile'].forEach(function (id) {
