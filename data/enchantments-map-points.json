@@ -1,0 +1,206 @@
+{
+ "_provenance": {
+  "source": "Derived 2026-09-28 from the Enchantments Traverse Planner app seeds: waypoints.seed.json (trailheads, Aasgard Pass), water.seed.json (the traverse lakes, their OpenStreetMap-tagged elevation in metres and the intermittent tag), eightmile.track.v0.json (the Eightmile Trailhead, its lakes and Windy Pass). Positions are OpenStreetMap, ODbL. Lake availability: \"mapped-non-seasonal\" only where OpenStreetMap carries intermittent=no; \"unverified\" everywhere else. No lake is classified permanent.",
+  "note": "routeKm is the distance along that feature's own mapped line from its own trailhead, computed by great-circle summation between line vertices. It is an index along a crowd-sourced line, not a measured or official distance. The traverse (Stuart Lake Trailhead to Snow Lakes Trailhead) and the two Eightmile lines each carry their own routeKm; the numbers are never comparable across lines. Elevation for trailheads and passes is not in this file; the map page reads the modeled DEM height of the nearest line vertex and labels it as modeled."
+ },
+ "trailheads": [
+  {
+   "id": "landmark-stuart-lake-trailhead",
+   "name": "Stuart Lake Trailhead",
+   "lat": 47.527755,
+   "lon": -120.820866,
+   "line": "traverse",
+   "routeKm": 0,
+   "osmSource": "OpenStreetMap, checked August 2026",
+   "note": "Start of the mapped traverse line."
+  },
+  {
+   "id": "landmark-snow-lakes-trailhead",
+   "name": "Snow Lakes Trailhead",
+   "lat": 47.544083,
+   "lon": -120.709661,
+   "line": "traverse",
+   "routeKm": 28.87,
+   "osmSource": "OpenStreetMap, checked August 2026, tagged as a US Forest Service trailhead",
+   "note": "End of the mapped traverse line."
+  },
+  {
+   "id": "landmark-eightmile-trailhead",
+   "name": "Eightmile Trailhead",
+   "lat": 47.53598,
+   "lon": -120.8137,
+   "line": "eightmile-lake",
+   "routeKm": 0,
+   "osmSource": "OpenStreetMap node 12053857534",
+   "note": "Start of the Eightmile Lake line and the Lake Caroline and Windy Pass line, on Forest Road 7601."
+  }
+ ],
+ "passes": [
+  {
+   "id": "landmark-aasgard-pass",
+   "name": "Aasgard Pass",
+   "lat": 47.480785,
+   "lon": -120.822454,
+   "line": "traverse",
+   "routeKm": 8.91,
+   "osmSource": "OpenStreetMap saddle, on the mapped line",
+   "note": "High point of the mapped traverse line."
+  },
+  {
+   "id": "landmark-windy-pass",
+   "name": "Windy Pass",
+   "lat": 47.552643,
+   "lon": -120.874698,
+   "line": "windy-pass",
+   "routeKm": 11.84,
+   "osmSource": "OpenStreetMap node 5521362826",
+   "note": "End of the Lake Caroline and Windy Pass line."
+  }
+ ],
+ "lakes": [
+  {
+   "id": "water-little-colchuck-lake",
+   "name": "Little Colchuck Lake",
+   "lat": 47.493511,
+   "lon": -120.837991,
+   "line": "traverse",
+   "routeKm": 6.36,
+   "elevationM": null,
+   "availability": "unverified"
+  },
+  {
+   "id": "water-colchuck-lake",
+   "name": "Colchuck Lake",
+   "lat": 47.493152,
+   "lon": -120.833794,
+   "line": "traverse",
+   "routeKm": 6.42,
+   "elevationM": 1698,
+   "availability": "unverified"
+  },
+  {
+   "id": "water-tranquil-lake",
+   "name": "Tranquil Lake",
+   "lat": 47.48098,
+   "lon": -120.818053,
+   "line": "traverse",
+   "routeKm": 9.35,
+   "elevationM": 2372,
+   "availability": "unverified"
+  },
+  {
+   "id": "water-inspiration-lake",
+   "name": "Inspiration Lake",
+   "lat": 47.48225,
+   "lon": -120.801064,
+   "line": "traverse",
+   "routeKm": 11.42,
+   "elevationM": 2196,
+   "availability": "unverified"
+  },
+  {
+   "id": "water-perfection-lake",
+   "name": "Perfection Lake",
+   "lat": 47.480206,
+   "lon": -120.797163,
+   "line": "traverse",
+   "routeKm": 12.29,
+   "elevationM": 2164,
+   "availability": "mapped-non-seasonal"
+  },
+  {
+   "id": "water-sprite-lake",
+   "name": "Sprite Lake",
+   "lat": 47.478817,
+   "lon": -120.794608,
+   "line": "traverse",
+   "routeKm": 12.45,
+   "elevationM": 2162,
+   "availability": "mapped-non-seasonal"
+  },
+  {
+   "id": "water-leprechaun-lake",
+   "name": "Leprechaun Lake",
+   "lat": 47.478551,
+   "lon": -120.786621,
+   "line": "traverse",
+   "routeKm": 13.21,
+   "elevationM": 2096,
+   "availability": "mapped-non-seasonal"
+  },
+  {
+   "id": "water-lake-viviane",
+   "name": "Lake Viviane",
+   "lat": 47.482487,
+   "lon": -120.78378,
+   "line": "traverse",
+   "routeKm": 13.49,
+   "elevationM": 2068,
+   "availability": "mapped-non-seasonal"
+  },
+  {
+   "id": "water-snow-lakes",
+   "name": "Snow Lakes",
+   "lat": 47.483065,
+   "lon": -120.749933,
+   "line": "traverse",
+   "routeKm": 17.77,
+   "elevationM": 1656,
+   "availability": "unverified"
+  },
+  {
+   "id": "water-nada-lake",
+   "name": "Nada Lake",
+   "lat": 47.4945,
+   "lon": -120.7406,
+   "line": "traverse",
+   "routeKm": 19.52,
+   "elevationM": 1504,
+   "availability": "mapped-non-seasonal"
+  },
+  {
+   "id": "water-little-eightmile-lake",
+   "name": "Little Eightmile Lake",
+   "lat": 47.52412,
+   "lon": -120.85123,
+   "line": "eightmile-lake",
+   "routeKm": 4.2,
+   "elevationM": null,
+   "availability": "unverified",
+   "osm": "way 328892287"
+  },
+  {
+   "id": "water-eightmile-lake",
+   "name": "Eightmile Lake",
+   "lat": 47.52032,
+   "lon": -120.86674,
+   "line": "eightmile-lake",
+   "routeKm": 5.79,
+   "elevationM": null,
+   "availability": "unverified",
+   "osm": "relation 17093842"
+  },
+  {
+   "id": "water-lake-caroline",
+   "name": "Lake Caroline",
+   "lat": 47.53944,
+   "lon": -120.86436,
+   "line": "windy-pass",
+   "routeKm": 7.8,
+   "elevationM": null,
+   "availability": "unverified",
+   "osm": "relation 17093953"
+  },
+  {
+   "id": "water-little-caroline-lake",
+   "name": "Little Caroline Lake",
+   "lat": 47.54363,
+   "lon": -120.87226,
+   "line": "windy-pass",
+   "routeKm": 9.06,
+   "elevationM": null,
+   "availability": "unverified",
+   "osm": "relation 17093955"
+  }
+ ]
+}

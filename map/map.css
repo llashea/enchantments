@@ -1,0 +1,41 @@
+/* Map page. Loads after site.css; only the map page uses this. */
+.mapPage{min-height:100vh;min-height:100dvh;display:grid;grid-template-rows:auto 1fr auto}
+.mapPage .nav{width:min(100% - 40px,1400px)}
+.mapPage .navLinks>a[aria-current]{color:var(--green-dark)}
+.mapMain{position:relative;min-height:420px;border-top:1px solid var(--line)}
+#map{position:absolute;inset:0;background:#E6EBDD}
+#map:focus-visible{outline-offset:-4px}
+.mapPanel{position:absolute;top:12px;left:12px;z-index:5;width:250px;max-width:calc(100% - 24px);background:#f2f3ecf5;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 20px #0000001f;font-size:13px;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.mapPanel summary{cursor:pointer;padding:10px 14px;font-weight:800;list-style:none;display:flex;justify-content:space-between;align-items:center}
+.mapPanel summary::-webkit-details-marker{display:none}
+.mapPanel summary:after{content:"+";color:var(--green);font-weight:700}
+.mapPanel[open] summary:after{content:"\2212"}
+.layersBody{padding:0 14px 12px;display:grid;gap:7px}
+.layersBody label{display:flex;align-items:center;gap:8px;cursor:pointer;line-height:1.35}
+.layersBody input{width:16px;height:16px;accent-color:var(--green);margin:0;flex:none}
+.legendRow{margin:0 0 2px;display:flex;align-items:center;gap:8px;color:var(--ink);font-weight:700}
+.swatch{display:inline-block;width:18px;height:0;border-top:3px solid var(--green);flex:none}
+.swatch.eightmile{border-top-color:#b3702a}
+.swatch.trails{border-top:2px dashed #7c7368}
+.swatch.contours{border-top:1px solid #8c7a5b}
+.layersNote{color:var(--muted);font-size:11.5px;line-height:1.5;margin:-3px 0 2px 24px}
+.mapStatus{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:4;background:#fffffff2;color:var(--ink);padding:10px 16px;border-radius:10px;font-size:14px;margin:0;box-shadow:0 6px 20px #0000001f;max-width:calc(100% - 40px);text-align:center}
+.mapStrip{border-top:1px solid var(--line);background:var(--paper-deep);padding:12px 20px;display:flex;gap:14px 24px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.mapStrip p{margin:0;color:var(--muted);font-size:13px;line-height:1.5;max-width:760px}
+.mapStripActions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.mapStrip .button{min-height:40px;padding:0 18px;font-size:13px;width:auto}
+.stripLink{font-size:12px;font-weight:700;color:var(--ink)}
+.stripLink:hover{text-decoration:underline}
+.maplibregl-popup{z-index:6}
+.maplibregl-popup-content{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;border-radius:12px;padding:12px 30px 12px 14px;box-shadow:0 8px 24px #0000002e;color:var(--ink)}
+.maplibregl-popup-close-button{font-size:18px;padding:2px 8px;color:var(--muted)}
+.popupTitle{font-family:Georgia,Times New Roman,serif;font-size:17px;font-weight:500;margin:0 0 6px;line-height:1.2}
+.popupLine{margin:0 0 4px;font-size:12.5px;line-height:1.5}
+.popupLine:last-child{margin-bottom:0}
+.popupLine.muted{color:var(--muted)}
+.maplibregl-ctrl-attrib{font-size:11px;line-height:1.4}
+.maplibregl-ctrl-attrib a{color:var(--green-dark)}
+@media (max-width:900px){.mapPage .nav{height:64px}}
+@media (max-width:560px){.maplibregl-ctrl-bottom-right .maplibregl-ctrl-attrib{max-width:calc(100vw - 140px)}.mapPage .nav{width:min(100% - 28px,1400px)}.mapPanel{top:10px;left:10px;width:230px}.mapStrip{padding:12px 14px;gap:10px}.mapStrip p{font-size:12.5px}.mapStripActions{width:100%;gap:10px 18px}.mapStrip .button{width:100%}.mapStatus{font-size:13px}}
+@media (prefers-reduced-motion:reduce){.mapPanel{-webkit-backdrop-filter:none;backdrop-filter:none}}
+@media (forced-colors:active){.mapPanel,.mapStatus{border:1px solid buttontext}}
