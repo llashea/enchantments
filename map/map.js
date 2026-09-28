@@ -225,6 +225,23 @@
     return ctx.getImageData(0, 0, size, size);
   }
 
+  /* A small tent for the mapped camping areas, drawn here like the chevron above:
+     a triangle, a doorway cut from it, a ground line. One flat colour and a thin
+     dark edge so it holds on the pale basemap. */
+  function campsiteImage() {
+    var size = 40, c = document.createElement('canvas');
+    c.width = size; c.height = size;
+    var ctx = c.getContext('2d');
+    ctx.beginPath();
+    ctx.moveTo(size / 2, 5); ctx.lineTo(size - 4, size - 7); ctx.lineTo(4, size - 7); ctx.closePath();
+    ctx.fillStyle = '#965a1e'; ctx.fill();
+    ctx.lineWidth = 2; ctx.strokeStyle = '#4a2c0c'; ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(size / 2, 18); ctx.lineTo(size / 2 + 6, size - 7); ctx.lineTo(size / 2 - 6, size - 7); ctx.closePath();
+    ctx.fillStyle = '#ffffff'; ctx.fill();
+    return ctx.getImageData(0, 0, size, size);
+  }
+
   function lineFeature(id, name, vertices) {
     return { type: 'Feature', properties: { id: id, name: name }, geometry: { type: 'LineString', coordinates: coords(vertices) } };
   }
@@ -471,6 +488,64 @@
       map.on('mouseenter', id, function () { map.getCanvas().style.cursor = 'pointer'; });
       map.on('mouseleave', id, function () { map.getCanvas().style.cursor = ''; });
     });
+
+    // Camping areas mapped by OpenStreetMap contributors (points.campsites, from
+    // the app's campsites.seed.json: tourism=camp_site with backcountry=yes inside
+    // a permit zone). Own source and layers so the panel switches them as one.
+    // The eight named areas carry the OSM name; the nameless get the tent alone.
+    // Inserted under the lake dots on purpose: a lake's or a zone's name wins a
+    // collision with a campsite's. The popup says what the mark is and is not, the
+    // agency's rule in the app's camping card's own words, the zone as the mapped
+    // estimate it is, and the km on the site's own line. Nothing else.
+    var CAMP_FROM = {
+      traverse: 'from Stuart Lake Trailhead along the mapped line',
+      'eightmile-lake': 'from Eightmile Trailhead along the Eightmile Lake line',
+      'windy-pass': 'from Eightmile Trailhead along the Lake Caroline and Windy Pass line',
+      'trout-creek': 'from Eightmile Trailhead along the Trout Creek line'
+    };
+    var CAMP_SENTENCES = 'Camping area mapped by OpenStreetMap contributors, not the Forest Service\u2019s designated-site list. ' +
+      'Camp only at previously impacted sites \u2014 ground already bare of vegetation.';
+    function campsiteFeature(c) {
+      var props = {
+        id: c.id, kind: 'campsite', name: c.name || 'Mapped campsite', named: !!c.name,
+        l1: CAMP_SENTENCES,
+        l2: c.zoneName ? 'In the ' + c.zoneName + ' zone (mapped estimate).' : '',
+        l3: c.line && c.routeKm != null ? '~' + miles(c.routeKm) + ' ' + (CAMP_FROM[c.line] || CAMP_FROM.traverse) + '.' : ''
+      };
+      return { type: 'Feature', properties: props, geometry: { type: 'Point', coordinates: [c.lon, c.lat] } };
+    }
+    map.addImage('campsite', campsiteImage(), { pixelRatio: 2 });
+    map.addSource('campsites', {
+      type: 'geojson',
+      data: { type: 'FeatureCollection', features: (points.campsites || []).map(campsiteFeature) }
+    });
+    map.addLayer({
+      id: 'campsites-icon', type: 'symbol', source: 'campsites', minzoom: 10,
+      layout: {
+        'icon-image': 'campsite', 'icon-anchor': 'bottom', 'icon-allow-overlap': true,
+        'icon-size': ['interpolate', ['linear'], ['zoom'], 10, 0.55, 14, 0.85]
+      }
+    }, 'lakes-circle');
+    map.addLayer({
+      id: 'campsites-label', type: 'symbol', source: 'campsites', filter: ['==', ['get', 'named'], true], minzoom: 11,
+      layout: {
+        'text-field': ['get', 'name'], 'text-font': ['Noto Sans Regular'],
+        'text-size': ['interpolate', ['linear'], ['zoom'], 11, 10.5, 14, 12.5],
+        'text-anchor': 'top', 'text-offset': [0, 0.3], 'text-optional': true, 'text-max-width': 8
+      },
+      paint: { 'text-color': '#4a2c0c', 'text-halo-color': HALO, 'text-halo-width': 1.4 }
+    }, 'lakes-circle');
+    map.on('click', 'campsites-icon', function (e) {
+      var f = e.features && e.features[0];
+      if (!f) return;
+      new maplibregl.Popup({ maxWidth: '300px', offset: 12 })
+        .setLngLat(f.geometry.coordinates)
+        .setHTML(popupHTML(f.properties))
+        .addTo(map);
+    });
+    map.on('mouseenter', 'campsites-icon', function () { map.getCanvas().style.cursor = 'pointer'; });
+    map.on('mouseleave', 'campsites-icon', function () { map.getCanvas().style.cursor = ''; });
+    GROUPS.campsites = ['campsites-icon', 'campsites-label'];
 
     // Frame every line, then match the panel's checkboxes.
     var west = Infinity, south = Infinity, east = -Infinity, north = -Infinity;

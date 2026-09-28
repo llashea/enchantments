@@ -1,6 +1,6 @@
 {
  "_provenance": {
-  "source": "Derived 2026-09-28 from the Enchantments Traverse Planner app seeds: waypoints.seed.json (trailheads, Aasgard Pass), water.seed.json (the traverse lakes, their OpenStreetMap-tagged elevation in metres and the intermittent tag), eightmile.track.v0.json (the Eightmile Trailhead, its lakes and Windy Pass). Positions are OpenStreetMap, ODbL. Lake availability: \"mapped-non-seasonal\" only where OpenStreetMap carries intermittent=no; \"unverified\" everywhere else. No lake is classified permanent.",
+  "source": "Derived 2026-09-28 from the Enchantments Traverse Planner app seeds: waypoints.seed.json (trailheads, Aasgard Pass), water.seed.json (the traverse lakes, their OpenStreetMap-tagged elevation in metres and the intermittent tag), eightmile.track.v0.json (the Eightmile Trailhead, its lakes and Windy Pass), campsites.seed.json (camping areas mapped by OpenStreetMap contributors as tourism=camp_site with backcountry=yes inside a permit zone, retrieved 2026-09-28; not the Forest Service's designated-site list, and not a complete list of where people camp: OSM maps none in the Eightmile/Caroline zone and none at Perfection, Inspiration or Tranquil). Positions are OpenStreetMap, ODbL. Lake availability: \"mapped-non-seasonal\" only where OpenStreetMap carries intermittent=no; \"unverified\" everywhere else. No lake is classified permanent.",
   "note": "routeKm is the distance along that feature's own mapped line from its own trailhead, computed by great-circle summation between line vertices. It is an index along a crowd-sourced line, not a measured or official distance. The traverse (Stuart Lake Trailhead to Snow Lakes Trailhead) and the two Eightmile lines each carry their own routeKm; the numbers are never comparable across lines. Elevation for trailheads and passes is not in this file; the map page reads the modeled DEM height of the nearest line vertex and labels it as modeled."
  },
  "trailheads": [
@@ -201,6 +201,107 @@
    "elevationM": null,
    "availability": "unverified",
    "osm": "relation 17093955"
+  }
+ ],
+ "campsites": [
+  {
+   "id": "camp-colchuck-lake",
+   "name": "Colchuck Lake Backcountry Camping",
+   "lat": 47.493745,
+   "lon": -120.83569,
+   "line": "traverse",
+   "routeKm": 6.4049,
+   "zoneId": "permit-zone-colchuck",
+   "zoneName": "Colchuck",
+   "osm": "way 1387603478"
+  },
+  {
+   "id": "camp-lake-stuart",
+   "name": "Lake Stuart Camping Area",
+   "lat": 47.497564,
+   "lon": -120.878148,
+   "line": null,
+   "routeKm": null,
+   "zoneId": "permit-zone-stuart",
+   "zoneName": "Stuart",
+   "osm": "way 1498104516"
+  },
+  {
+   "id": "camp-lake-viviane",
+   "name": "Lake Viviane Backcountry Camping",
+   "lat": 47.481697,
+   "lon": -120.781495,
+   "line": "traverse",
+   "routeKm": 13.8215,
+   "zoneId": "permit-zone-core-enchantment",
+   "zoneName": "Core Enchantment",
+   "osm": "way 890287728"
+  },
+  {
+   "id": "camp-leprechaun-lake",
+   "name": "Leprechaun Lake Backcountry Camping",
+   "lat": 47.479673,
+   "lon": -120.786157,
+   "line": "traverse",
+   "routeKm": 13.2832,
+   "zoneId": "permit-zone-core-enchantment",
+   "zoneName": "Core Enchantment",
+   "osm": "node 3160872955"
+  },
+  {
+   "id": "camp-nada-lake",
+   "name": "Nada Lake Backcountry Camping",
+   "lat": 47.497872,
+   "lon": -120.734571,
+   "line": "traverse",
+   "routeKm": 20.2239,
+   "zoneId": "permit-zone-snow",
+   "zoneName": "Snow",
+   "osm": "node 3160874697"
+  },
+  {
+   "id": "camp-snow-creek",
+   "name": "Snow Creek Backcountry Camping",
+   "lat": 47.478422,
+   "lon": -120.804679,
+   "line": "traverse",
+   "routeKm": 10.7571,
+   "zoneId": "permit-zone-core-enchantment",
+   "zoneName": "Core Enchantment",
+   "osm": "way 890287729"
+  },
+  {
+   "id": "camp-snow-lakes",
+   "name": "Snow Lakes Backcountry Camping",
+   "lat": 47.481456,
+   "lon": -120.756389,
+   "line": "traverse",
+   "routeKm": 17.1985,
+   "zoneId": "permit-zone-snow",
+   "zoneName": "Snow",
+   "osm": "way 1486113401"
+  },
+  {
+   "id": "camp-sprite-lake",
+   "name": "Sprite Lake Backcountry Camping",
+   "lat": 47.478887,
+   "lon": -120.793704,
+   "line": "traverse",
+   "routeKm": 12.5134,
+   "zoneId": "permit-zone-core-enchantment",
+   "zoneName": "Core Enchantment",
+   "osm": "node 3160872727"
+  },
+  {
+   "id": "camp-osm-14073401580",
+   "name": null,
+   "lat": 47.508653,
+   "lon": -120.8321,
+   "line": "traverse",
+   "routeKm": 2.5527,
+   "zoneId": "permit-zone-stuart",
+   "zoneName": "Stuart",
+   "osm": "node 14073401580"
   }
  ]
 }
