@@ -11,3 +11,5 @@
 @media print{.sectionHead p,.faqList details{break-inside:avoid}}
 
 @media print{.heroPhoto img{filter:none!important}img{break-inside:avoid}.hero{min-height:420px}}
+
+.figureLink{margin:18px 0 0;font-size:14px;font-weight:800}.figureLink a{color:var(--green);text-decoration:underline;text-underline-offset:3px}
