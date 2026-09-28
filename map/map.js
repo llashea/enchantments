@@ -225,6 +225,19 @@
     return ctx.getImageData(0, 0, size, size);
   }
 
+  /* The dam between the Snow Lakes: a short bar with a dark edge. The Forest
+     Service's word for it is "the old dam"; AllTrails draws a bridge there. */
+  function crossingImage() {
+    var size = 40, c = document.createElement('canvas');
+    c.width = size; c.height = size;
+    var ctx = c.getContext('2d');
+    ctx.beginPath();
+    ctx.rect(7, 15, size - 14, 10);
+    ctx.fillStyle = '#5f8aa6'; ctx.fill();
+    ctx.lineWidth = 3; ctx.strokeStyle = '#1f3d52'; ctx.stroke();
+    return ctx.getImageData(0, 0, size, size);
+  }
+
   /* A small tent for the mapped camping areas, drawn here like the chevron above:
      a triangle, a doorway cut from it, a ground line. One flat colour and a thin
      dark edge so it holds on the pale basemap. */
@@ -398,6 +411,7 @@
     points.lakes.forEach(function (p) { features.push(pointFeature(Object.assign({ kind: 'lake' }, p), lines)); });
     points.trailheads.forEach(function (p) { features.push(pointFeature(Object.assign({ kind: 'trailhead' }, p), lines)); });
     points.passes.forEach(function (p) { features.push(pointFeature(Object.assign({ kind: 'pass' }, p), lines)); });
+    (points.crossings || []).forEach(function (p) { features.push(pointFeature(Object.assign({ kind: 'crossing' }, p), lines)); });
     map.addSource('points', { type: 'geojson', data: { type: 'FeatureCollection', features: features } });
 
     map.addLayer({
@@ -421,6 +435,7 @@
     });
 
     map.addImage('pass', passImage(), { pixelRatio: 2 });
+    map.addImage('crossing', crossingImage(), { pixelRatio: 2 });
     map.addLayer({
       id: 'passes-eightmile', type: 'symbol', source: 'points',
       filter: ['all', ['==', ['get', 'kind'], 'pass'], ['==', ['get', 'id'], 'landmark-windy-pass']], minzoom: 10,
@@ -442,6 +457,20 @@
         'text-anchor': 'top', 'text-offset': [0, 1], 'text-optional': true
       },
       paint: { 'text-color': '#7a4d12', 'text-halo-color': HALO, 'text-halo-width': 1.4 }
+    });
+
+    // The dam between the Snow Lakes (points.crossings): the name on the map, the
+    // agency's sentence in the popup. Leah, 2026-09-28: "is there a bridge".
+    map.addLayer({
+      id: 'crossings-icon', type: 'symbol', source: 'points',
+      filter: ['==', ['get', 'kind'], 'crossing'], minzoom: 10,
+      layout: {
+        'icon-image': 'crossing', 'icon-size': 1, 'icon-allow-overlap': true,
+        'text-field': ['get', 'name'], 'text-font': ['Noto Sans Regular'],
+        'text-size': ['interpolate', ['linear'], ['zoom'], 10, 10.5, 14, 13],
+        'text-anchor': 'top', 'text-offset': [0, 0.9], 'text-optional': true
+      },
+      paint: { 'text-color': '#1f3d52', 'text-halo-color': HALO, 'text-halo-width': 1.4 }
     });
 
     map.addLayer({
@@ -476,7 +505,7 @@
 
 
     // Popups.
-    ['lakes-circle', 'trailheads-circle', 'passes-icon', 'passes-eightmile'].forEach(function (id) {
+    ['lakes-circle', 'trailheads-circle', 'passes-icon', 'passes-eightmile', 'crossings-icon'].forEach(function (id) {
       map.on('click', id, function (e) {
         var f = e.features && e.features[0];
         if (!f) return;
