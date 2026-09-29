@@ -1,0 +1,56 @@
+# Writes snow.json at the site root once a day. The app reads it from
+# https://enchantmentstraverse.app/snow.json.
+#
+# NSIDC posts each day's SNODAS tar by about 13:00 UTC. The first run is at
+# 14:30 UTC. The second, at 20:30 UTC, is the retry for a late tar. The
+# script leaves snow.json alone unless the product date is newer, so the
+# second run commits nothing on a normal day.
+#
+# To turn this off: disable the workflow in the repo's Actions tab, or
+# delete this file.
+
+name: snow.json
+
+on:
+  schedule:
+    - cron: "30 14 * * *"
+    - cron: "30 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snow-json
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check the script offline
+        run: python3 -m unittest discover -s tools/snow -p 'test_*.py'
+
+      - name: Build snow.json
+        run: python3 tools/snow/build_snow_json.py --out snow.json
+
+      - name: Commit when the product date changed
+        run: |
+          python3 -c "import json; json.load(open('snow.json'))"
+          if [ -z "$(git status --porcelain -- snow.json)" ]; then
+            echo "snow.json unchanged, nothing to commit"
+            exit 0
+          fi
+          DATE="$(python3 -c "import json; print(json.load(open('snow.json'))['productDate'])")"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snow.json
+          git commit -m "snow.json for ${DATE}"
+          git push

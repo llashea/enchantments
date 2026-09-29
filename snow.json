@@ -1,0 +1,84 @@
+{
+  "source": "NOAA NOHRSC SNODAS via NSIDC G02158",
+  "citation": "National Operational Hydrologic Remote Sensing Center. 2004. Snow Data Assimilation System (SNODAS) Data Products at NSIDC, Version 1. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. https://doi.org/10.7265/N5TB14TC.",
+  "productDate": "2026-09-28",
+  "validTime": "2026-09-28T06:00:00Z",
+  "generated": "2026-09-29T04:57:42Z",
+  "units": "mm",
+  "gridKm": 1,
+  "points": [
+    {
+      "id": "access-stuart-lake-trailhead",
+      "name": "Stuart Lake Trailhead",
+      "lat": 47.527755,
+      "lon": -120.820866,
+      "heightFt": 3435,
+      "depthMm": 0
+    },
+    {
+      "id": "water-colchuck-lake",
+      "name": "Colchuck Lake",
+      "lat": 47.493152,
+      "lon": -120.833794,
+      "heightFt": 5571,
+      "depthMm": 0
+    },
+    {
+      "id": "landmark-aasgard-pass",
+      "name": "Aasgard Pass",
+      "lat": 47.480785,
+      "lon": -120.822454,
+      "heightFt": 7792,
+      "depthMm": 94
+    },
+    {
+      "id": "water-perfection-lake",
+      "name": "Perfection Lake",
+      "lat": 47.480206,
+      "lon": -120.797163,
+      "heightFt": 7100,
+      "depthMm": 80
+    },
+    {
+      "id": "water-lake-viviane",
+      "name": "Lake Viviane",
+      "lat": 47.482487,
+      "lon": -120.78378,
+      "heightFt": 6785,
+      "depthMm": 74
+    },
+    {
+      "id": "water-snow-lakes",
+      "name": "Snow Lakes",
+      "lat": 47.483065,
+      "lon": -120.749933,
+      "heightFt": 5433,
+      "depthMm": 0
+    },
+    {
+      "id": "water-nada-lake",
+      "name": "Nada Lake",
+      "lat": 47.4945,
+      "lon": -120.7406,
+      "heightFt": 4934,
+      "depthMm": 0
+    },
+    {
+      "id": "access-snow-lakes-trailhead",
+      "name": "Snow Lakes Trailhead",
+      "lat": 47.544083,
+      "lon": -120.709661,
+      "heightFt": 1299,
+      "depthMm": 0
+    }
+  ],
+  "snotel": [
+    {
+      "triplet": "1338:WA:SNTL",
+      "name": "Icicle Creek",
+      "elevationFt": 4550,
+      "date": "2026-09-27",
+      "depthIn": 0
+    }
+  ]
+}
