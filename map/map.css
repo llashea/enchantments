@@ -6,6 +6,8 @@
 #map{position:absolute;inset:0;background:#E6EBDD}
 #map:focus-visible{outline-offset:-4px}
 .mapPanel{position:absolute;top:12px;left:12px;z-index:5;width:250px;max-width:calc(100% - 24px);background:#f2f3ecf5;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 20px #0000001f;font-size:13px;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+/* The panel is taller than a laptop-height map since the slope row; it scrolls inside the map, not over the footer. */
+.mapPanel{max-height:calc(100% - 24px);overflow-y:auto;overscroll-behavior:contain}
 .mapPanel summary{cursor:pointer;padding:10px 14px;font-weight:800;list-style:none;display:flex;justify-content:space-between;align-items:center}
 .mapPanel summary::-webkit-details-marker{display:none}
 .mapPanel summary:after{content:"+";color:var(--green);font-weight:700}

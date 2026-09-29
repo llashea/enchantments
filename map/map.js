@@ -295,7 +295,8 @@
     eightmile: ['eightmile-casing', 'eightmile-line', 'passes-eightmile'],
     trails: ['other-trails', 'other-trails-labels'],
     contours: ['contours-line', 'contours-index', 'contours-label'],
-    shading: ['hillshade-context', 'hillshade-detail']
+    shading: ['hillshade-context', 'hillshade-detail'],
+    slope: ['slope']
   };
   function setVisible(ids, visible) {
     ids.forEach(function (id) {
@@ -325,6 +326,21 @@
       });
       map.addLayer({ id: h.id, type: 'raster', source: h.id, paint: { 'raster-opacity': 0.55, 'raster-fade-duration': 0 } }, shadeBefore);
     });
+
+    // Slope angle: the app's own band image (ENCHANTMENTSAPP
+    // scripts/build-slope.py, the same AWS terrain tiles). Three amber bands
+    // where a terrain model about 10 m across says the ground is steeper
+    // than 30 degrees, nothing drawn below that. A terrain fact, not a
+    // hazard rating; the panel note says so once. Added after the hillshade
+    // at the same insertion point, so it sits above the shading and under
+    // the water fill and every line. Hidden until its box is ticked. The
+    // corners are the generator's slope-bounds.json.
+    var SLOPE = { id: 'slope', file: 'enchantments-slope.png', b: { west: -120.959473, south: 47.457809, east: -120.673828, north: 47.635784 } };
+    map.addSource(SLOPE.id, {
+      type: 'image', url: DATA + SLOPE.file,
+      coordinates: [[SLOPE.b.west, SLOPE.b.north], [SLOPE.b.east, SLOPE.b.north], [SLOPE.b.east, SLOPE.b.south], [SLOPE.b.west, SLOPE.b.south]]
+    });
+    map.addLayer({ id: SLOPE.id, type: 'raster', source: SLOPE.id, layout: { visibility: 'none' }, paint: { 'raster-opacity': 0.6, 'raster-fade-duration': 0 } }, shadeBefore);
 
     var lines = { traverse: route.trail };
     eightmile.routes.forEach(function (r) { lines[r.id] = r.trail; });
