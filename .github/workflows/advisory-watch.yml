@@ -1,0 +1,51 @@
+# Once a day, checks the Forest Service pages advisory.json was written from
+# (tools/advisory_watch/watch.py). When the alerts that touch this trip or the
+# storm-damage order change, it writes the date to advisory.json as
+# sourcesChangedOn. The app and both web pages then say the pages changed
+# after the summary was written, until a person re-reads them.
+#
+# It never edits the summary. To turn it off: disable it in the Actions tab.
+
+name: advisory watch
+
+on:
+  schedule:
+    - cron: "15 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: advisory-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check the script offline
+        run: python3 -m unittest discover -s tools/advisory_watch -p 'test_*.py'
+
+      - name: Read the Forest Service pages
+        run: python3 tools/advisory_watch/watch.py
+
+      - name: Commit when something moved
+        run: |
+          python3 -c "import json; json.load(open('advisory.json'))"
+          if [ -z "$(git status --porcelain -- advisory.json tools/advisory_watch/state.json)" ]; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add advisory.json tools/advisory_watch/state.json
+          git commit -m "advisory watch $(date -u +%F)"
+          git push

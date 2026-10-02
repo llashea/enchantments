@@ -1,0 +1,39 @@
+{
+  "alerts": [
+    "administrative-site-access-forestwide",
+    "alpine-lakes-wilderness-restrictions-forestwide-or-multi-district",
+    "beehive-area-road-motorized-restriction-wenatchee-river-ranger",
+    "campground-parking-limits-wenatchee-river-ranger-district",
+    "camping-administrative-sites-restriction-wenatchee-river-ranger",
+    "cascade-tunnel-closure-wenatchee-river-ranger-district",
+    "commercial-hauling-forest-roads-forestwide",
+    "eightmile-road-7601-parking-restriction-wenatchee-river-ranger",
+    "grouse-creek-aquatic-project-road-closure-wenatchee-river-ranger",
+    "hitching-and-tying-packsaddle-animals-forestwide-or-multi-district",
+    "hunting-and-fishing-regulations-forestwide",
+    "icicle-road-camping-restriction-wenatchee-river-ranger-district",
+    "little-giant-fire-closure-order-wenatchee-river-and-entiat-ranger",
+    "meadow-creek-road-speed-limit-wenatchee-river-ranger-district",
+    "motorized-stock-bicycle-and-seasonal-trail-closures-forestwide-or",
+    "motorized-use-restriction-groomed-ski-trails-forestwide-or-multi",
+    "no-dogs-cross-country-ski-trails-wenatchee-river-ranger-district",
+    "occupancy-and-use-camping-restrictions-forestwide",
+    "pacific-crest-trail-bicycle-restrictions-forestwide-or-multi-district",
+    "parking-violation-posted-instruction-forestwide",
+    "road-6304-bridge-closure-wenatchee-river-ranger-district",
+    "safe-storage-possession-and-handling-food-and-refuse-forestwide",
+    "squilchuck-trail-1200-motorized-restriction-wenatchee-river-ranger",
+    "storm-damaged-roads-closure-wenatchee-river-district",
+    "termination-stage-1-public-use-restrictions-and-campfire-ban",
+    "tumwater-campground-closure-wenatchee-river-ranger-district",
+    "wilderness-restrictions-forestwide",
+    "wilderness-use-restrictions-forestwide",
+    "winter-motorized-use-closure-blewett-pass-area-wenatchee-river-ranger",
+    "winter-motorized-use-restriction-roads-forestwide-or-multi-district"
+  ],
+  "orderLastUpdated": "July 27, 2026",
+  "pages": {
+    "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts/storm-damaged-roads-closure-wenatchee-river-district": "6e9c4f3da049a580",
+    "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts/termination-stage-1-public-use-restrictions-and-campfire-ban": "1ffa17010b85d9f0"
+  }
+}
