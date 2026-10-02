@@ -7,17 +7,17 @@ Your permit zone decides where you can camp. Your number of nights does not chan
 
 ## Most permits are for the outer zones
 
-Recreation.gov's daily quotas for the 2026 season, checked September 28, 2026.
+Each day there are 15 permits for the four outer zones and only a few for the Core.
 
-| Zone | Each day |
+| Zone | Permits a day |
 |---|---|
-| Colchuck | 3 groups |
-| Stuart | 4 groups |
-| Snow | 5 groups |
-| Eightmile/Caroline | 3 groups |
-| Core Enchantment | 24 people |
+| Snow | 5 |
+| Stuart | 4 |
+| Colchuck | 3 |
+| Eightmile/Caroline | 3 |
+| Core | 24 people a day. A group can be up to 8, so as few as 3 permits |
 
-The four outer zones admit 15 groups a day between them. The Core admits 24 people. One permit from each zone is held for the daily lottery. [Read the permit page](https://www.recreation.gov/permits/233273). The trip reports lean the other way. 14 of the 30 camped in the Core.
+Recreation.gov's numbers for the 2026 season, checked September 28, 2026. [Read the permit page](https://www.recreation.gov/permits/233273). Most trip reports online are Core trips, so the outer zones get less written about them. Each section below covers one zone.
 
 ## How many nights, at a glance
 
