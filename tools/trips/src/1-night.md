@@ -1,27 +1,9 @@
-title: You have one night in the Enchantments. Where did people camp in each permit zone?
-description: Seven one-night Enchantments reports, grouped by camp zone. Compare what hikers did with agency rules and mapped distances.
+title: One night in the Enchantments, a plan for each permit zone
+description: Day-by-day plans for one night in each Enchantments permit zone, with where to sleep, day hikes and mapped miles.
 
-# You have one night in the Enchantments
+# One night in the Enchantments
 
-Seven trips in this sample lasted one night. Three went into Eightmile/Caroline. One camped at Colchuck Lake and entered the Core for a day hike. Three walked from one trailhead to the other. In all three through trips, the second day continued into the evening.
-
-## The usual trip, day by day
-
-**Camping at Colchuck Lake, from Stuart Lake Trailhead.** Fits a Colchuck or Core permit. One report did this.
-
-| Day | Route | Mapped miles | Night |
-|---|---|---|---|
-| 1 | Stuart Lake Trailhead to Colchuck Lake, about 2,200 ft up. In the afternoon, day packs up Aasgard Pass and back | 4.0, then 3.1 round trip | Colchuck Lake |
-| 2 | Colchuck Lake to Stuart Lake Trailhead | 4.0 | Home |
-
-**Camping at Lake Caroline, from Eightmile Trailhead.** Fits an Eightmile/Caroline permit. Three reports, two at Lake Caroline and one at Eightmile Lake.
-
-| Day | Route | Mapped miles | Night |
-|---|---|---|---|
-| 1 | Eightmile Trailhead to Lake Caroline. In the afternoon, up to Windy Pass and back | 4.8, then 5.0 round trip | Lake Caroline |
-| 2 | Lake Caroline to Eightmile Trailhead | 4.8 | Home |
-
-Three more reports went trailhead to trailhead in one night. All three ran long. One made an unplanned camp at the foot of Aasgard and finished near 10 p.m. One reached the Colchuck boulders at dusk. One took far longer than planned coming down from Lake Viviane.
+Find your permit zone below. Each one has a day-by-day plan with where to sleep, what to do and the mapped miles, plus one other way to do it.
 
 ## If you have a Core permit
 
@@ -97,6 +79,8 @@ Another way: camp at Eightmile Lake, 3.6 miles in, for a shorter first day.
 Trip reports: [Savvy Exploring](https://savvyexploring.com/post/northamerica/usa/eightmilelake/), [zilcsak.com](https://zilcsak.com/blog/enchantments-eightmile-caroline-zone-backpacking).
 
 ## Before you go
+
+These plans are built from 30 overnight trip reports dated 2013 to 2026, read September 28, 2026, and the app's mapped line. Mapped miles read a little short of what a GPS watch shows. The Forest Service says “Camp only at previously impacted sites.” [Read the permit rules](https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/enchantments-overnight-permits).
 
 The agencies do not name a traverse direction. Recreation.gov's Aasgard Pass caution covers climbing and descending. “Use extreme caution when climbing or descending steep snow slopes, exposed and hidden creeks and waterfalls are present.” [Read the full caution](https://www.recreation.gov/permits/233273).
 
