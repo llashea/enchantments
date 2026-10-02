@@ -3,7 +3,7 @@ description: Day-by-day plans for two nights in each Enchantments permit zone, w
 
 # Two nights in the Enchantments
 
-Find your permit zone below. Each one has a day-by-day plan with where to sleep, what to do and the mapped miles, plus one other way to do it.
+Find your permit zone below. Each table gives a plan with where to sleep and what to do. Distances and climbs are approximate. They follow the app's mapped line and terrain model unless an agency is named.
 
 ## If you have a Core permit
 
@@ -11,15 +11,15 @@ Find your permit zone below. Each one has a day-by-day plan with where to sleep,
 
 **Suggested plan.** Colchuck Lake the first night, then cross the Core.
 
-| Day | What to do | Mapped miles | Sleep at |
+| Day | What to do | Mapped miles, about | Sleep at |
 |---|---|---|---|
 | 1 | Stuart Lake Trailhead to Colchuck Lake, about 2,200 ft up | 4.0 | Colchuck Lake |
 | 2 | Up Aasgard Pass with full packs, about 2,300 ft up, into the Core | 3.1 to Inspiration Lake, 4.2 to Leprechaun Lake | Inspiration or Leprechaun Lake |
 | 3 | Through the Core and down past the Snow Lakes to Snow Lakes Trailhead | 10.8 from Inspiration, 9.7 from Leprechaun | Home |
 
-Another way: go over Aasgard on day 1 and spend both nights in the Core. Two reports did this. Day 1 is 7.1 miles to Inspiration Lake.
+**Another way.** Go over Aasgard on day 1 and spend both nights in the Core. Two reports did this. Day 1 is 7.1 miles to Inspiration Lake.
 
-Trip reports: [RobinB's Oregon Hikers account](https://www.oregonhikers.org/forum/viewtopic.php?t=27815), [Little Grunts](https://www.littlegrunts.com/climbing-prusik-peak/).
+**Trip reports.** [RobinB's Oregon Hikers account](https://www.oregonhikers.org/forum/viewtopic.php?t=27815), [Little Grunts](https://www.littlegrunts.com/climbing-prusik-peak/).
 
 ## If you have a Colchuck permit
 
@@ -27,15 +27,15 @@ Trip reports: [RobinB's Oregon Hikers account](https://www.oregonhikers.org/foru
 
 **Suggested plan.** Camp at Colchuck Lake both nights. Spend the middle day up in the Core with day packs.
 
-| Day | What to do | Mapped miles | Sleep at |
+| Day | What to do | Mapped miles, about | Sleep at |
 |---|---|---|---|
 | 1 | Stuart Lake Trailhead to Colchuck Lake, about 2,200 ft up | 4.0 | Colchuck Lake |
 | 2 | Day packs up Aasgard Pass into the Core. Tranquil Lake, or on to Inspiration Lake | 3.6 round trip to Tranquil Lake, 6.2 to Inspiration Lake | Colchuck Lake |
 | 3 | Colchuck Lake to Stuart Lake Trailhead | 4.0 | Home |
 
-Another way: skip the pass and spend the middle day walking to Lake Stuart.
+**Another way.** Skip the pass and spend the middle day walking to Lake Stuart.
 
-Trip reports: [WTA writer aeflatley](https://www.wta.org/go-hiking/trip-reports/trip_report.2014-06-18.2230375748), [Mariah Adventures](https://mariahhadventures.com/2024/08/20/backpacking-the-enchantments-colchuck-lake-stuart-lake-permit-areas/).
+**Trip reports.** [WTA writer aeflatley](https://www.wta.org/go-hiking/trip-reports/trip_report.2014-06-18.2230375748), [Mariah Adventures](https://mariahhadventures.com/2024/08/20/backpacking-the-enchantments-colchuck-lake-stuart-lake-permit-areas/).
 
 ## If you have a Snow permit
 
@@ -43,15 +43,15 @@ Trip reports: [WTA writer aeflatley](https://www.wta.org/go-hiking/trip-reports/
 
 **Suggested plan.** Camp at Upper Snow Lake both nights. Spend the middle day up in the Core with day packs.
 
-| Day | What to do | Mapped miles | Sleep at |
+| Day | What to do | Mapped miles, about | Sleep at |
 |---|---|---|---|
 | 1 | Snow Lakes Trailhead to Upper Snow Lake | 6.9 | Upper Snow Lake |
-| 2 | Day packs up into the Core. Lake Viviane, Leprechaun Lake, or on to Inspiration Lake | 5.2, 5.6 or 7.8 round trip | Upper Snow Lake |
+| 2 | Day packs up into the Core. Lake Viviane, Leprechaun Lake, or on to Inspiration Lake | 5.3, 5.7 or 7.9 round trip | Upper Snow Lake |
 | 3 | Snow Lakes to Snow Lakes Trailhead | 6.9 | Home |
 
-Another way: the second night at Nada Lake, 1.1 miles lower, makes the last day 5.8 miles.
+**Another way.** The second night at Nada Lake, 1.1 miles lower, makes the last day 5.8 miles.
 
-Trip reports: [WTA writer kreidykid](https://www.wta.org/go-hiking/trip-reports/trip_report-2026-06-08.184711351531).
+**Trip reports.** [WTA writer kreidykid](https://www.wta.org/go-hiking/trip-reports/trip_report-2026-06-08.184711351531).
 
 ## If you have a Stuart permit
 
@@ -59,13 +59,15 @@ Trip reports: [WTA writer kreidykid](https://www.wta.org/go-hiking/trip-reports/
 
 **Suggested plan.** Camp at Lake Stuart both nights. Spend the middle day on a day hike.
 
-| Day | What to do | Mapped miles | Sleep at |
+| Day | What to do | Mapped miles, about | Sleep at |
 |---|---|---|---|
 | 1 | Stuart Lake Trailhead to Lake Stuart | 4.5, per the Forest Service | Lake Stuart |
-| 2 | Day hike to Horseshoe Lake or Colchuck Lake. One party went up Aasgard Pass instead, about 13 miles and 12 hours | Not on the app's map | Lake Stuart |
-| 3 | Lake Stuart to Stuart Lake Trailhead | 4.5 | Home |
+| 2 | Day hike to Horseshoe Lake or Colchuck Lake and back | Not on the app's map | Lake Stuart |
+| 3 | Lake Stuart to Stuart Lake Trailhead | 4.5, per the Forest Service | Home |
 
-Trip reports: [WTA writer Rhabbie](https://www.wta.org/go-hiking/trip-reports/trip_report-2021-09-04-8475369096), [retz.blog's account](https://retz.blog/posts/backpacking-at-lake-stuart-in-the-enchantments/).
+One party day hiked from Lake Stuart over Aasgard Pass to just past Isolation Lake. They reported about 13 miles and 12 hours and walked back in the dark.
+
+**Trip reports.** [WTA writer Rhabbie](https://www.wta.org/go-hiking/trip-reports/trip_report-2021-09-04-8475369096), [retz.blog's account](https://retz.blog/posts/backpacking-at-lake-stuart-in-the-enchantments/).
 
 ## If you have an Eightmile/Caroline permit
 
@@ -73,13 +75,13 @@ Trip reports: [WTA writer Rhabbie](https://www.wta.org/go-hiking/trip-reports/tr
 
 **Suggested plan.** Eightmile Lake the first night, Lake Caroline the second, Windy Pass in between.
 
-| Day | What to do | Mapped miles | Sleep at |
+| Day | What to do | Mapped miles, about | Sleep at |
 |---|---|---|---|
 | 1 | Eightmile Trailhead to Eightmile Lake | 3.6 | Eightmile Lake |
 | 2 | Move to Lake Caroline. Afternoon: up to Windy Pass and back | 3.3, then 5.0 round trip | Lake Caroline |
 | 3 | Lake Caroline to Eightmile Trailhead | 4.8 | Home |
 
-Another way: both nights at Lake Caroline, with Windy Pass one day and Little Caroline Lake, 0.8 miles on, the other.
+**Another way.** Both nights at Lake Caroline, with Windy Pass one day and Little Caroline Lake, 0.8 miles on, the other.
 
 
 ## Before you go
@@ -90,4 +92,4 @@ Recreation.gov's caution for Aasgard Pass includes both directions. “Use extre
 
 The free self-issued day-use permit, your overnight permit and your parking pass are three separate things.
 
-Compare [trailheads by permit zone](/trips/) with [the map](/map/). Its zone boundaries are mapped estimates. See [three nights](/trips/3-nights/) and [four to seven nights](/trips/4-to-7-nights/), plus [packing](/packing/). [The app](/) has the map offline. Road closures and the drive in are on [the roads page](/roads/).
+Compare [the plan picker](/trips/) with [the map](/map/). Its zone boundaries are mapped estimates. See [three nights](/trips/3-nights/) and [four to seven nights](/trips/4-to-7-nights/), plus [packing](/packing/). [The app](/) has the map offline. Road closures and the drive in are on [the roads page](/roads/).
