@@ -5,18 +5,21 @@ description: Five reports describe four or five nights in the Enchantments. None
 
 The evidence for longer trips is thin. Three reports describe four nights and two describe five. None describes six or seven nights. All five included camps in the Core. This sample cannot supply a seven-night itinerary for you.
 
-## What most parties did
+## The usual trip, day by day
 
-Five trips ran four or five nights. All five camped in the Core. Four described the same shape.
+Five trips ran four or five nights, all with camps in the Core. Four followed this shape. It needs a Core permit.
 
-1. **Night 1, Colchuck Lake.** About 4.0 mapped miles from Stuart Lake Trailhead. One party spent two nights there.
-2. **Up Aasgard Pass with full packs, then a new camp in the Core every night or two.** Camps named: past Isolation Lake, Inspiration Lake, Perfection Lake, Sprite Lake, Leprechaun Lake and below Lake Viviane.
-3. **Last night, Leprechaun Lake, below Lake Viviane, Snow Lakes or Nada Lake.** Leprechaun Lake leaves about 9.7 mapped miles to Snow Lakes Trailhead. Snow Lakes leave about 6.9. Nada Lake leaves about 5.8.
-4. **Out to Snow Lakes Trailhead.**
+| Day | Route | Mapped miles | Night |
+|---|---|---|---|
+| 1 | Stuart Lake Trailhead to Colchuck Lake, about 2,200 ft up | 4.0 | Colchuck Lake |
+| 2 | Up Aasgard Pass with full packs, about 2,300 ft up, into the upper Core | 3.1 to Inspiration Lake | Inspiration Lake or nearby |
+| 3 | A short move through the Core | 0.6 to Sprite Lake, 1.1 to Leprechaun Lake | Sprite or Leprechaun Lake |
+| 4 | Down to the Snow Lakes or Nada Lake | 2.8 from Leprechaun Lake to the Snow Lakes, 3.9 to Nada Lake | Snow Lakes or Nada Lake |
+| 5 | Out to Snow Lakes Trailhead | 6.9 from the Snow Lakes, 5.8 from Nada Lake | Home |
+
+The five-night trips added a night. One spent two nights at Colchuck Lake before the pass. One moved camp about a mile at a time through the Core and used two half days for Little Annapurna and for Prusik Pass with Gnome Tarn.
 
 No trip of six or seven nights turned up in the reports read.
-
-The wider sample contains 30 overnight reports dated 2013 to 2026, read September 28, 2026. Fourteen are Washington Trails Association reports. It leans toward Core trips. Some writers do not state which permit they held. A camp described in a report is not proof of permission to camp there.
 
 ## If you have a Core permit
 

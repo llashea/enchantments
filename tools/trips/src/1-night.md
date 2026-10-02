@@ -5,17 +5,23 @@ description: Seven one-night Enchantments reports, grouped by camp zone. Compare
 
 Seven trips in this sample lasted one night. Three went into Eightmile/Caroline. One camped at Colchuck Lake and entered the Core for a day hike. Three walked from one trailhead to the other. In all three through trips, the second day continued into the evening.
 
-## What most parties did
+## The usual trip, day by day
 
-Most one-night trips stayed out of the Core and went out the way they came in.
+**Camping at Colchuck Lake, from Stuart Lake Trailhead.** Fits a Colchuck or Core permit. One report did this.
 
-- **Eightmile/Caroline, 3 trips.** Day 1: Eightmile Trailhead to Lake Caroline (about 4.8 mapped miles) or Eightmile Lake (about 3.6). Camp, then walk up to Windy Pass. Day 2: out the same way.
-- **Colchuck, 1 trip.** Day 1: Stuart Lake Trailhead to Colchuck Lake (about 4.0 mapped miles). Camp, then up Aasgard Pass and back the same afternoon with day packs. Day 2: out the same way.
-- **Trailhead to trailhead, 3 trips.** All three ran long. One made an unplanned camp at the foot of Aasgard and finished near 10 p.m. One reached the Colchuck boulders at dusk. One took far longer than planned coming down from Lake Viviane.
+| Day | Route | Mapped miles | Night |
+|---|---|---|---|
+| 1 | Stuart Lake Trailhead to Colchuck Lake, about 2,200 ft up. In the afternoon, day packs up Aasgard Pass and back | 4.0, then 3.1 round trip | Colchuck Lake |
+| 2 | Colchuck Lake to Stuart Lake Trailhead | 4.0 | Home |
 
-Recreation.gov says “Trips into the Enchantment Permit Area can range from overnight to multiple days.” [Read the permit page](https://www.recreation.gov/permits/233273). These reports do not supply a two-day schedule for you.
+**Camping at Lake Caroline, from Eightmile Trailhead.** Fits an Eightmile/Caroline permit. Three reports, two at Lake Caroline and one at Eightmile Lake.
 
-The wider sample contains 30 overnight reports dated 2013 to 2026, read September 28, 2026. Fourteen are Washington Trails Association reports. It leans toward Core trips. Some writers do not state their permit zone. A reported camp does not prove which permit the party held.
+| Day | Route | Mapped miles | Night |
+|---|---|---|---|
+| 1 | Eightmile Trailhead to Lake Caroline. In the afternoon, up to Windy Pass and back | 4.8, then 5.0 round trip | Lake Caroline |
+| 2 | Lake Caroline to Eightmile Trailhead | 4.8 | Home |
+
+Three more reports went trailhead to trailhead in one night. All three ran long. One made an unplanned camp at the foot of Aasgard and finished near 10 p.m. One reached the Colchuck boulders at dusk. One took far longer than planned coming down from Lake Viviane.
 
 ## If you have a Core permit
 

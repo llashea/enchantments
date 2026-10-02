@@ -7,6 +7,8 @@ Your permit zone decides where you can camp. Your number of nights does not chan
 
 ## How many nights, at a glance
 
+Each length page has the usual trip as a day-by-day table.
+
 | Nights | What most parties did | Reports |
 |---|---|---|
 | 1 | Camped outside the Core and went out the way they came in | 4 of 7 |

@@ -5,18 +5,20 @@ description: Nine three-night Enchantments reports show five trip shapes. Compar
 
 Nine reports describe three-night trips. Seven included camps in the Core. One stayed at Colchuck Lake. One camped at Upper Snow Lake and Nada Lake. Your permit zone still governs where you camp, regardless of how many nights you have.
 
-## What most parties did
+## The usual trip, day by day
 
-Seven of the nine three-night trips camped in the Core. The usual shape crossed from Stuart Lake Trailhead to Snow Lakes Trailhead.
+Seven of the nine three-night trips camped in the Core. This is the shape that crossed from Stuart Lake Trailhead to Snow Lakes Trailhead. It needs a Core permit. Three reports.
 
-1. **Night 1, Colchuck Lake.** About 4.0 mapped miles from Stuart Lake Trailhead.
-2. **Night 2, in the Core.** Up Aasgard Pass with full packs in the morning. Camps were at Inspiration Lake (about 7.1 mapped miles from the start) or Leprechaun Lake (about 8.2).
-3. **Night 3, the Core again or Nada Lake.** From Nada Lake it is about 5.8 mapped miles to the trailhead. From Inspiration Lake it is about 10.8. One party that stayed at Inspiration called the last day more than 12 miles out in heat.
-4. **Day 4, out to Snow Lakes Trailhead.**
+| Day | Route | Mapped miles | Night |
+|---|---|---|---|
+| 1 | Stuart Lake Trailhead to Colchuck Lake, about 2,200 ft up | 4.0 | Colchuck Lake |
+| 2 | Up Aasgard Pass with full packs, about 2,300 ft up, into the Core | 3.1 to Inspiration Lake, 4.2 to Leprechaun Lake | Inspiration or Leprechaun Lake |
+| 3 | Through the Core and down past the Snow Lakes | 3.9 from Leprechaun Lake to Nada Lake | Nada Lake |
+| 4 | Nada Lake to Snow Lakes Trailhead | 5.8 | Home |
 
-Three trips crossed this way. Two spent night 1 at Colchuck Lake. The third went over Aasgard on day 1 and camped in the Core. The other shapes: Colchuck Lake all three nights with a day trip up Aasgard. Snow Lakes twice, then Nada Lake. Up and back down Aasgard with full packs, out the way they came. In and out of Snow Lakes Trailhead with two nights at Leprechaun Lake.
+Two of the three camped at Nada Lake on night 3. The third stayed at Inspiration Lake and called the last day more than 12 miles out in heat. One went over Aasgard on day 1 instead of camping at Colchuck Lake.
 
-The wider sample contains 30 overnight reports dated 2013 to 2026, read September 28, 2026. Fourteen are Washington Trails Association reports. It leans toward Core trips. Some parties did not state their permit zone. Their reported camps do not establish permission for your trip.
+Other three-night shapes: Colchuck Lake all three nights with a day trip up Aasgard. The Snow Lakes twice, then Nada Lake. Up and back down Aasgard with full packs. In and out of Snow Lakes Trailhead with two nights at Leprechaun Lake.
 
 ## If you have a Core permit
 

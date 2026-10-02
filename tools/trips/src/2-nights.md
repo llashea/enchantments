@@ -5,16 +5,27 @@ description: Eight of nine two-night Enchantments reports kept one camp. See the
 
 Eight of nine two-night reports kept one camp for both nights. Those parties used the middle day for a walk or climb. The ninth report does not say whether camp moved. Staying put was a pattern in these accounts, not an agency itinerary.
 
-## What most parties did
+## The usual trip, day by day
 
-Seven of the nine two-night trips camped at one lake outside the Core both nights. They spent the middle day on a day hike, often into the Core.
+Seven of the nine two-night trips kept one camp both nights and spent the middle day on a day hike.
 
-- **Snow Lakes side, 3 trips.** Day 1: Snow Lakes Trailhead to Upper Snow Lake (about 6.9 mapped miles). Day 2: day packs up into the Core. One reached Inspiration Lake. Day 3: out the same way.
-- **Colchuck, 2 trips.** Day 1: Stuart Lake Trailhead to Colchuck Lake (about 4.0 mapped miles). Day 2: day packs up Aasgard Pass as far as Crystal Lake, or a day trip to Stuart Lake. Day 3: out the same way.
-- **Stuart, 2 trips.** Day 1: Stuart Lake Trailhead to Lake Stuart (4.5 miles, per the Forest Service). Day 2: one party went up Aasgard and back, about 13 miles and 12 hours. The other went to Horseshoe Lake. Day 3: out the same way.
-- **Core, 2 trips.** Day 1: Stuart Lake Trailhead, up Aasgard Pass with full packs, camp in the upper Core. Day 2: in the Core. Day 3: out to Snow Lakes Trailhead. One called it a long walk out.
+**Camping at Colchuck Lake.** Fits a Colchuck or Core permit. Two reports.
 
-The wider sample contains 30 overnight reports dated 2013 to 2026, read September 28, 2026. Fourteen are Washington Trails Association reports. The sample leans toward Core trips. Some writers did not state their permit zone. The sections below distinguish their camps from the agency's rules for your permit.
+| Day | Route | Mapped miles | Night |
+|---|---|---|---|
+| 1 | Stuart Lake Trailhead to Colchuck Lake, about 2,200 ft up | 4.0 | Colchuck Lake |
+| 2 | Day packs up Aasgard Pass and back. One party went on as far as Crystal Lake. The other walked to Stuart Lake instead | 3.1 round trip to the top of the pass | Colchuck Lake |
+| 3 | Colchuck Lake to Stuart Lake Trailhead | 4.0 | Home |
+
+**Camping at the Snow Lakes.** Fits a Snow or Core permit. Three reports.
+
+| Day | Route | Mapped miles | Night |
+|---|---|---|---|
+| 1 | Snow Lakes Trailhead to Upper Snow Lake | 6.9 | Snow Lakes |
+| 2 | Day packs up into the Core. One party reached Inspiration Lake | 7.8 round trip to Inspiration Lake | Snow Lakes |
+| 3 | Snow Lakes to Snow Lakes Trailhead | 6.9 | Home |
+
+Two more reports camped at Lake Stuart both nights, with a Stuart permit. Two Core trips crossed Aasgard on day 1 with full packs, camped in the upper Core both nights and walked out to Snow Lakes Trailhead on day 3.
 
 ## If you have a Core permit
 
