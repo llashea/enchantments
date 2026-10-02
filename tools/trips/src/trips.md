@@ -97,4 +97,4 @@ The mapped Eightmile lines share no trail with the traverse. None of those three
 
 The free self-issued day-use permit, your overnight permit and your parking pass are three separate things.
 
-Compare [one night](/trips/1-night/) with [two nights](/trips/2-nights/). There are separate pages for [three nights](/trips/3-nights/) and [four to seven nights](/trips/4-to-7-nights/). See [packing](/packing/) and [the app's offline map](/). The app does not suggest camps. Road closures and the drive in are on [the roads page](/roads/).
+Compare [one night](/trips/1-night/) with [two nights](/trips/2-nights/). There are separate pages for [three nights](/trips/3-nights/) and [four to seven nights](/trips/4-to-7-nights/). See [packing](/packing/) and [the app](/). The app does not suggest camps. Road closures and the drive in are on [the roads page](/roads/).

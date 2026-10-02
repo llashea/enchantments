@@ -22,47 +22,73 @@ Other three-night shapes: Colchuck Lake all three nights with a day trip up Aasg
 
 ## If you have a Core permit
 
-The seven Core-camping accounts fall into three shapes.
+**Your permit.** Camp in any zone and start or finish at either trailhead.
 
-| Reported shape | Reports |
-|---|---|
-| Colchuck Lake first, then the Core, then another Core night or Nada Lake | 3 |
-| Over Aasgard Pass on day one, then Core camps or a last night at Nada Lake | 2 |
-| In from Snow Lakes Trailhead, Snow Lakes first, then the Core | 2 |
+**Suggested plan.** Use the table at the top of this page. Colchuck Lake, a night in the Core, Nada Lake, out.
 
-These are summaries of hiker reports. They do not specify camps for you. One party in the first group returned down Aasgard Pass to Stuart Lake Trailhead. One in the third group also left that way. Other reports do not fully describe every entry or exit.
+Another way: two nights in the Core and walk out the last day, 9.7 to 10.8 miles. One party did this and called the last day long and hot.
 
-[WTA writer clandry](https://www.wta.org/go-hiking/trip-reports/trip_report.2022-08-29.2880102745) describes returning over the pass. [gemhikes](https://www.wta.org/go-hiking/trip-reports/trip_report.2015-06-29.7831552682) describes crossing it on the first day. [Alec Sills-Trausch](https://explorewithalec.com/backpacking-enchantments-snow-lakes-pnw-hiking-cascades/) describes the Snow Lakes approach.
-
-Recreation.gov says Core permit holders may camp in any zone and enter or exit by either approach. It also says “Visitors typically plan at least three or four days for this trip.” That sentence concerns the Core. [Read the permit page](https://www.recreation.gov/permits/233273).
-
-Inspiration Lake is about 7.1 mapped miles from Stuart Lake Trailhead and about 10.8 from Snow Lakes Trailhead. Lake Viviane is about 8.4 and 9.6 mapped miles respectively. These mapped lines read short.
+Trip reports: [WTA writer clandry](https://www.wta.org/go-hiking/trip-reports/trip_report.2022-08-29.2880102745), [gemhikes](https://www.wta.org/go-hiking/trip-reports/trip_report.2015-06-29.7831552682), [Alec Sills-Trausch](https://explorewithalec.com/backpacking-enchantments-snow-lakes-pnw-hiking-cascades/).
 
 ## If you have a Colchuck permit
 
-One three-night account stayed at Colchuck Lake every night. The party went up Aasgard Pass and back in one day with day packs, and spent another day about a mile into the Core. [WTA writer ebonifaci](https://www.wta.org/go-hiking/trip-reports/trip_report-2024-07-02.094006190384) describes the trip.
+**Your permit.** Every night at Colchuck Lake or elsewhere in the Colchuck Zone. Day hikes into the Core are allowed. You cannot camp right below Aasgard Pass.
 
-The agency rule permits day hiking in the Core but requires camping within the Colchuck Zone. [Read Recreation.gov's zone text](https://www.recreation.gov/permits/233273). The Core parties' ability to move camp elsewhere does not extend to your Colchuck permit.
+**Suggested plan.** Camp at Colchuck Lake all three nights. Spend two days up in the Core with day packs.
 
-The Forest Service names Stuart Lake Trailhead for the [Colchuck approach](https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/colchuck-lake-trail). Colchuck Lake is about 4.0 mapped miles from there.
+| Day | What to do | Mapped miles | Sleep at |
+|---|---|---|---|
+| 1 | Stuart Lake Trailhead to Colchuck Lake, about 2,200 ft up | 4.0 | Colchuck Lake |
+| 2 | Day packs up Aasgard Pass to Inspiration Lake and back | 6.2 round trip | Colchuck Lake |
+| 3 | An easier day. Tranquil Lake again, or the walk to Lake Stuart | 3.6 round trip to Tranquil Lake | Colchuck Lake |
+| 4 | Colchuck Lake to Stuart Lake Trailhead | 4.0 | Home |
+
+Trip reports: [WTA writer ebonifaci](https://www.wta.org/go-hiking/trip-reports/trip_report-2024-07-02.094006190384).
 
 ## If you have a Snow permit
 
-One account spent two nights at Upper Snow Lake and the third at Nada Lake. [Moderately Adventurous](https://moderatelyadventurous.com/washington-enchantments-camping-and-permits/) describes entering the Core on a day hike while camping on the Snow Lakes side.
+**Your permit.** Every night at or below Upper Snow Lake. Day hikes into the Core are allowed.
 
-Recreation.gov permits that day use but requires Snow permit holders to camp at or below Upper Snow Lake. [Read the zone text](https://www.recreation.gov/permits/233273). The Forest Service describes the trail beyond Upper Snow Lake as “a primitive route marked with rock cairns.” [Read its Snow Lakes Trail page](https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/snow-lakes-trail).
+**Suggested plan.** Two nights at Upper Snow Lake, then one at Nada Lake on the way out.
 
-Snow Lakes are about 6.9 mapped miles from Snow Lakes Trailhead. Nada Lake is about 5.8.
+| Day | What to do | Mapped miles | Sleep at |
+|---|---|---|---|
+| 1 | Snow Lakes Trailhead to Upper Snow Lake | 6.9 | Upper Snow Lake |
+| 2 | Day packs up into the Core, as far as Inspiration Lake | 7.8 round trip | Upper Snow Lake |
+| 3 | Down to Nada Lake. Rest of the day at the lake | 1.1 | Nada Lake |
+| 4 | Nada Lake to Snow Lakes Trailhead | 5.8 | Home |
+
+Trip reports: [Moderately Adventurous](https://moderatelyadventurous.com/washington-enchantments-camping-and-permits/).
 
 ## If you have a Stuart permit
 
-The Stuart trips in these reports ran two nights at Lake Stuart, 4.5 miles from Stuart Lake Trailhead per the Forest Service. Their middle days went to Colchuck Lake, Horseshoe Lake or up Aasgard Pass and back. With a Stuart permit every night is in the Stuart Zone, so a third night adds another day from that camp. Recreation.gov requires camping within the Stuart Zone while permitting day hiking in other zones. [Read the zone text](https://www.recreation.gov/permits/233273). The Forest Service gives 4.5 miles to Stuart Lake from Stuart Lake Trailhead. This project has no mapped line to that lake. [Read the trail page](https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/stuart-lake-trail).
+**Your permit.** Every night in the Stuart Zone, around Lake Stuart. Day hikes into other zones are allowed.
+
+**Suggested plan.** Camp at Lake Stuart all three nights. One day hike each full day.
+
+| Day | What to do | Mapped miles | Sleep at |
+|---|---|---|---|
+| 1 | Stuart Lake Trailhead to Lake Stuart | 4.5, per the Forest Service | Lake Stuart |
+| 2 | Day hike to Colchuck Lake | Not on the app's map | Lake Stuart |
+| 3 | Day hike to Horseshoe Lake | Not on the app's map | Lake Stuart |
+| 4 | Lake Stuart to Stuart Lake Trailhead | 4.5 | Home |
+
 
 ## If you have an Eightmile/Caroline permit
 
-The Eightmile/Caroline trips in these reports ran one night, at Lake Caroline or Eightmile Lake, with a walk up to Windy Pass. Every night stays in that zone, so a longer trip adds days from those lakes. The agency restricts camping to Eightmile/Caroline. [Read the zone text](https://www.recreation.gov/permits/233273). Its mapped lines are separate from the traverse.
+**Your permit.** Every night in the Eightmile/Caroline Zone. It is a separate trail system from the traverse.
 
-## The agency's caution still applies
+**Suggested plan.** One night at Eightmile Lake, two at Lake Caroline.
+
+| Day | What to do | Mapped miles | Sleep at |
+|---|---|---|---|
+| 1 | Eightmile Trailhead to Eightmile Lake | 3.6 | Eightmile Lake |
+| 2 | Move to Lake Caroline | 3.3 | Lake Caroline |
+| 3 | Day hike up to Windy Pass and Little Caroline Lake | 5.0 round trip to the pass | Lake Caroline |
+| 4 | Lake Caroline to Eightmile Trailhead | 4.8 | Home |
+
+
+## Before you go
 
 Recreation.gov says “Use extreme caution when climbing or descending steep snow slopes, exposed and hidden creeks and waterfalls are present.” This is the agency's Aasgard Pass caution. [Read it in full](https://www.recreation.gov/permits/233273). Neither agency chooses a traverse direction for you.
 
@@ -70,4 +96,4 @@ The Forest Service says “Camp only at previously impacted sites.” [Read the 
 
 The free self-issued day-use permit, your overnight permit and your parking pass are three separate things.
 
-See [trailheads by zone](/trips/) and [the map](/map/). Compare [one night](/trips/1-night/) with [two nights](/trips/2-nights/), or read [four to seven nights](/trips/4-to-7-nights/). See [packing](/packing/) and [the app's offline map](/). Road closures and the drive in are on [the roads page](/roads/).
+See [trailheads by zone](/trips/) and [the map](/map/). Compare [one night](/trips/1-night/) with [two nights](/trips/2-nights/), or read [four to seven nights](/trips/4-to-7-nights/). See [packing](/packing/) and [the app](/). Road closures and the drive in are on [the roads page](/roads/).

@@ -23,39 +23,67 @@ No trip of six or seven nights turned up in the reports read.
 
 ## If you have a Core permit
 
-The longer reports describe moving camp within the basin and taking side trips. [Wanderpost](https://wanderpostblog.azurewebsites.net/enchantments) describes five nights, including short moves through the Core. The party used half days for side trips and took a rest day. They had planned a sixth night but walked out early, low on food.
+**Your permit.** Camp in any zone and start or finish at either trailhead.
 
-[WTA writer Hike PNW](https://www.wta.org/go-hiking/trip-reports/trip_report-2026-07-12.104637206846) describes two nights at Colchuck Lake before crossing Aasgard Pass. Later camps were in the Core and at Snow Lakes. The report does not state the permit zone.
+**Suggested plan.** Use the table at the top of this page, then slow it down. Move camp a mile or two at a time and add side trips.
 
-[AARshley](https://www.wta.org/go-hiking/trip-reports/trip_report.2017-09-07.5978635091) describes four camps in four nights, ending at Nada Lake. Two of the five longer trips spent their last night at Nada Lake or Snow Lakes. That describes those accounts, not a sequence assigned to your permit.
+The longer trips in the reports spent extra days on Little Annapurna, Prusik Pass and Gnome Tarn, and one on a rest day at Leprechaun Lake.
 
-Recreation.gov says “Core Enchantment permit holders may camp in any zone.” [Read the permit page](https://www.recreation.gov/permits/233273). Inspiration Lake is about 7.1 mapped miles from Stuart Lake Trailhead. Snow Lakes are about 6.9 mapped miles from Snow Lakes Trailhead. The mapped lines read short.
+Trip reports: [Wanderpost](https://wanderpostblog.azurewebsites.net/enchantments), [WTA writer Hike PNW](https://www.wta.org/go-hiking/trip-reports/trip_report-2026-07-12.104637206846), [AARshley](https://www.wta.org/go-hiking/trip-reports/trip_report.2017-09-07.5978635091).
 
 ## If you have a Colchuck permit
 
-The longest Colchuck trip in these reports ran three nights, all at Colchuck Lake. One day went up Aasgard Pass and back with day packs. Another went about a mile into the Core.
+**Your permit.** Every night at Colchuck Lake or elsewhere in the Colchuck Zone. Day hikes into the Core are allowed. You cannot camp right below Aasgard Pass.
 
-Recreation.gov permits day hiking in the Core but requires Colchuck permit holders to camp within their zone. [Read the zone text](https://www.recreation.gov/permits/233273). The approach begins at Stuart Lake Trailhead. Colchuck Lake is about 4.0 mapped miles from there.
+**Suggested plan.** Camp at Colchuck Lake every night. A different day hike each full day.
+
+| Day | What to do | Mapped miles | Sleep at |
+|---|---|---|---|
+| 1 | Stuart Lake Trailhead to Colchuck Lake | 4.0 | Colchuck Lake |
+| 2 | Day packs up Aasgard Pass to Inspiration Lake and back | 6.2 round trip | Colchuck Lake |
+| 3 | Tranquil Lake, or a rest day | 3.6 round trip | Colchuck Lake |
+| 4 | Walk to Lake Stuart and back | Not on the app's map | Colchuck Lake |
+| 5 | Colchuck Lake to Stuart Lake Trailhead | 4.0 | Home |
+
+Add a day for each extra night. Every night stays in the Colchuck Zone.
+
 
 ## If you have a Snow permit
 
-The longest Snow trip in these reports ran three nights, the Snow Lakes twice and then Nada Lake, with a day trip up into the Core.
+**Your permit.** Every night at or below Upper Snow Lake. Day hikes into the Core are allowed.
 
-Recreation.gov requires Snow permit holders to camp at or below Upper Snow Lake. It permits day hiking in the Core. [Read the zone text](https://www.recreation.gov/permits/233273). The Snow Lakes approach begins at Snow Lakes Trailhead.
+**Suggested plan.** Upper Snow Lake as base camp, Nada Lake for the last night.
+
+| Day | What to do | Mapped miles | Sleep at |
+|---|---|---|---|
+| 1 | Snow Lakes Trailhead to Upper Snow Lake | 6.9 | Upper Snow Lake |
+| 2 | Day packs to Lake Viviane and Leprechaun Lake | 5.6 round trip | Upper Snow Lake |
+| 3 | Day packs to Sprite, Perfection and Inspiration lakes | 7.8 round trip | Upper Snow Lake |
+| 4 | Down to Nada Lake | 1.1 | Nada Lake |
+| 5 | Nada Lake to Snow Lakes Trailhead | 5.8 | Home |
+
+Add a day for each extra night. Every night stays at or below Upper Snow Lake.
+
 
 ## If you have a Stuart permit
 
-The Stuart trips in these reports ran two nights at Lake Stuart, 4.5 miles from Stuart Lake Trailhead per the Forest Service. Their middle days went to Colchuck Lake, Horseshoe Lake or up Aasgard Pass and back. Recreation.gov requires camping within the Stuart Zone and permits day hiking in other zones. [Read the zone text](https://www.recreation.gov/permits/233273).
+**Your permit.** Every night in the Stuart Zone, around Lake Stuart. Day hikes into other zones are allowed.
 
-The Forest Service gives 4.5 miles to Stuart Lake from Stuart Lake Trailhead. [Read the trail page](https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/stuart-lake-trail). This project has no mapped line to that lake.
+**Suggested plan.** Lake Stuart as base camp. Day hikes to Colchuck Lake, Horseshoe Lake and, for a long day, up Aasgard Pass.
+
+One party went from Lake Stuart up Aasgard and back in about 13 miles and 12 hours.
+
 
 ## If you have an Eightmile/Caroline permit
 
-The Eightmile/Caroline trips in these reports ran one night, at Lake Caroline or Eightmile Lake, with a walk up to Windy Pass. Two had planned a second night. Every night stays in that zone, so a longer trip adds days from those lakes. Recreation.gov requires camping within Eightmile/Caroline. [Read the zone text](https://www.recreation.gov/permits/233273).
+**Your permit.** Every night in the Eightmile/Caroline Zone. It is a separate trail system from the traverse.
 
-The mapped Eightmile lines are separate from the traverse. Lake Caroline is about 4.8 mapped miles from Eightmile Trailhead. The longer Core accounts do not describe this trail system.
+**Suggested plan.** Eightmile Lake, then Lake Caroline as base camp. Windy Pass and Little Caroline Lake as day hikes.
 
-## Side trips are places reported, not routes supplied
+Every night stays in the Eightmile/Caroline Zone.
+
+
+## Side trips
 
 Among the five longer trips, two named Little Annapurna, three Prusik Pass and three Gnome Tarn. [Hike At Your Pace](https://hikeatyourpace.com/5-day-backpacking-adventure-in-the-enchantments-wa-colchuck-aasgard-little-annapurna-more/) describes side trips. [WTA writer tiffanyc](https://www.wta.org/go-hiking/trip-reports/trip_report.2018-08-12.0449350773) describes moving camp in the lower Core. These destinations are off the mapped traverse line. This page gives no route to them.
 
@@ -71,4 +99,4 @@ The agency also limits unattended camp supplies to 48 hours and requires attract
 
 The free self-issued day-use permit, your overnight permit and your parking pass are three separate things.
 
-See [trailheads by zone](/trips/) and [the map](/map/). Zone edges are mapped estimates. Compare [one night](/trips/1-night/), [two nights](/trips/2-nights/) and [three nights](/trips/3-nights/). See [packing](/packing/) and [the app's offline map](/). Road closures and the drive in are on [the roads page](/roads/).
+See [trailheads by zone](/trips/) and [the map](/map/). Zone edges are mapped estimates. Compare [one night](/trips/1-night/), [two nights](/trips/2-nights/) and [three nights](/trips/3-nights/). See [packing](/packing/) and [the app](/). Road closures and the drive in are on [the roads page](/roads/).
