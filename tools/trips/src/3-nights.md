@@ -56,11 +56,11 @@ Snow Lakes are about 6.9 mapped miles from Snow Lakes Trailhead. Nada Lake is ab
 
 ## If you have a Stuart permit
 
-No three-night Stuart-camping trip appears in this sample. Recreation.gov requires camping within the Stuart Zone while permitting day hiking in other zones. [Read the zone text](https://www.recreation.gov/permits/233273). The Forest Service gives 4.5 miles to Stuart Lake from Stuart Lake Trailhead. This project has no mapped line to that lake. [Read the trail page](https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/stuart-lake-trail).
+The Stuart trips in these reports ran two nights at Lake Stuart, 4.5 miles from Stuart Lake Trailhead per the Forest Service. Their middle days went to Colchuck Lake, Horseshoe Lake or up Aasgard Pass and back. With a Stuart permit every night is in the Stuart Zone, so a third night adds another day from that camp. Recreation.gov requires camping within the Stuart Zone while permitting day hiking in other zones. [Read the zone text](https://www.recreation.gov/permits/233273). The Forest Service gives 4.5 miles to Stuart Lake from Stuart Lake Trailhead. This project has no mapped line to that lake. [Read the trail page](https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/stuart-lake-trail).
 
 ## If you have an Eightmile/Caroline permit
 
-No three-night account in this sample used that zone. The three Eightmile/Caroline trips lasted one night and returned to Eightmile Trailhead. The agency restricts camping to Eightmile/Caroline. [Read the zone text](https://www.recreation.gov/permits/233273). Its mapped lines are separate from the traverse.
+The Eightmile/Caroline trips in these reports ran one night, at Lake Caroline or Eightmile Lake, with a walk up to Windy Pass. Every night stays in that zone, so a longer trip adds days from those lakes. The agency restricts camping to Eightmile/Caroline. [Read the zone text](https://www.recreation.gov/permits/233273). Its mapped lines are separate from the traverse.
 
 ## The agency's caution still applies
 
@@ -70,4 +70,4 @@ The Forest Service says “Camp only at previously impacted sites.” [Read the 
 
 The free self-issued day-use permit, your overnight permit and your parking pass are three separate things.
 
-See [trailheads by zone](/trips/) and [the map](/map/). Mapped zone edges do not establish a campsite's status. Compare [one night](/trips/1-night/) with [two nights](/trips/2-nights/), or read [four to seven nights](/trips/4-to-7-nights/). See [packing](/packing/) and [the app's offline map](/). Road closures and the drive in are on [the roads page](/roads/).
+See [trailheads by zone](/trips/) and [the map](/map/). Compare [one night](/trips/1-night/) with [two nights](/trips/2-nights/), or read [four to seven nights](/trips/4-to-7-nights/). See [packing](/packing/) and [the app's offline map](/). Road closures and the drive in are on [the roads page](/roads/).

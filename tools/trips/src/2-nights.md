@@ -57,7 +57,7 @@ Recreation.gov allows Stuart permit holders to day hike elsewhere but requires c
 
 ## If you have an Eightmile/Caroline permit
 
-No trip in this sample lasted two nights in Eightmile/Caroline. The three accounts there lasted one night. Two had planned to stay longer. All returned to Eightmile Trailhead and visited Windy Pass.
+The Eightmile/Caroline trips in these reports ran one night, at Lake Caroline or Eightmile Lake, with a walk up to Windy Pass. Two had planned a second night. Every night stays in that zone, so a longer trip adds days from those lakes.
 
 Recreation.gov restricts camping to the permit zone. [Read the zone text](https://www.recreation.gov/permits/233273). The mapped Eightmile lines are separate from the traverse. Lake Caroline is about 4.8 mapped miles from Eightmile Trailhead. See the [one-night accounts](/trips/1-night/) for that evidence.
 

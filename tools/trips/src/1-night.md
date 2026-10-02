@@ -25,11 +25,11 @@ Three more reports went trailhead to trailhead in one night. All three ran long.
 
 ## If you have a Core permit
 
-No one-night report in this sample describes a camp in the Core. That does not establish whether one night fits your trip.
+The one-night reports that reached the Core did it two ways. One day hiked up from a camp at Colchuck Lake. Three walked trailhead to trailhead in two days. None camped in the Core.
 
 Recreation.gov says “Core Enchantment permit holders may camp in any zone.” The agency describes approaches from Stuart Lake Trailhead and Snow Lakes Trailhead. [Read the permit page](https://www.recreation.gov/permits/233273).
 
-The full traverse is about 17.9 mapped miles. The mapped lines read short. A trailhead-to-trailhead report is not evidence that every permit zone permits that trip.
+The full traverse is about 17.9 mapped miles. The mapped lines read short.
 
 ## If you have a Colchuck permit
 
@@ -43,13 +43,13 @@ Colchuck Lake is about 4.0 mapped miles from Stuart Lake Trailhead. That distanc
 
 The one-night reports include parties walking through rather than returning to their starting trailhead. [WTA writer Abhigdeal](https://www.wta.org/go-hiking/trip-reports/trip_report-2020-08-02-2875732823) describes starting at Snow Lakes Trailhead and camping at Snow Lake before continuing. The report does not state the permit zone.
 
-Your permit rule is separate from that account. Recreation.gov says Snow permit holders may day hike in the Core but must camp at or below Upper Snow Lake. [Read the zone text](https://www.recreation.gov/permits/233273). This page does not establish permission to exit at the other trailhead with a Snow permit.
+Your permit rule is separate from that account. Recreation.gov says Snow permit holders may day hike in the Core but must camp at or below Upper Snow Lake. [Read the zone text](https://www.recreation.gov/permits/233273).
 
 Snow Lakes are about 6.9 mapped miles from Snow Lakes Trailhead. Nada Lake is about 5.8 mapped miles in.
 
 ## If you have a Stuart permit
 
-The sample contains no one-night Stuart-camping trip. It cannot supply a night-by-night example for your permit.
+The Stuart trips in these reports ran two nights at Lake Stuart, 4.5 miles from Stuart Lake Trailhead per the Forest Service. Their middle days went to Colchuck Lake, Horseshoe Lake or up Aasgard Pass and back.
 
 Recreation.gov requires Stuart permit holders to camp within the Stuart Zone. [Read the zone text](https://www.recreation.gov/permits/233273). The Forest Service's [Stuart Lake Trail page](https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/stuart-lake-trail) gives 4.5 miles to the lake from Stuart Lake Trailhead. This project has no mapped line to Stuart Lake.
 

@@ -3,7 +3,7 @@ description: Five reports describe four or five nights in the Enchantments. None
 
 # You have four to seven nights in the Enchantments
 
-The evidence for longer trips is thin. Three reports describe four nights and two describe five. None describes six or seven nights. All five included camps in the Core. This sample cannot supply a seven-night itinerary for you.
+The evidence for longer trips is thin. Three reports describe four nights and two describe five. None describes six or seven nights. All five included camps in the Core.
 
 ## The usual trip, day by day
 
@@ -33,25 +33,25 @@ Recreation.gov says “Core Enchantment permit holders may camp in any zone.” 
 
 ## If you have a Colchuck permit
 
-No Colchuck-only trip in this sample lasted four nights or more. The account with two initial nights at Colchuck later moved into the Core. It does not establish that a Colchuck permit permits that move.
+The longest Colchuck trip in these reports ran three nights, all at Colchuck Lake. One day went up Aasgard Pass and back with day packs. Another went about a mile into the Core.
 
 Recreation.gov permits day hiking in the Core but requires Colchuck permit holders to camp within their zone. [Read the zone text](https://www.recreation.gov/permits/233273). The approach begins at Stuart Lake Trailhead. Colchuck Lake is about 4.0 mapped miles from there.
 
 ## If you have a Snow permit
 
-No Snow-only trip in the sample lasted more than three nights. A longer Core-camping trip's final night at Snow Lakes does not establish a Snow permit holder's ability to camp in the Core.
+The longest Snow trip in these reports ran three nights, the Snow Lakes twice and then Nada Lake, with a day trip up into the Core.
 
 Recreation.gov requires Snow permit holders to camp at or below Upper Snow Lake. It permits day hiking in the Core. [Read the zone text](https://www.recreation.gov/permits/233273). The Snow Lakes approach begins at Snow Lakes Trailhead.
 
 ## If you have a Stuart permit
 
-The sample contains no Stuart-camping trip of four nights or more. Recreation.gov requires camping within the Stuart Zone and permits day hiking in other zones. [Read the zone text](https://www.recreation.gov/permits/233273).
+The Stuart trips in these reports ran two nights at Lake Stuart, 4.5 miles from Stuart Lake Trailhead per the Forest Service. Their middle days went to Colchuck Lake, Horseshoe Lake or up Aasgard Pass and back. Recreation.gov requires camping within the Stuart Zone and permits day hiking in other zones. [Read the zone text](https://www.recreation.gov/permits/233273).
 
 The Forest Service gives 4.5 miles to Stuart Lake from Stuart Lake Trailhead. [Read the trail page](https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/trails/stuart-lake-trail). This project has no mapped line to that lake.
 
 ## If you have an Eightmile/Caroline permit
 
-All three Eightmile/Caroline trips in this sample lasted one night. None reached the Core. Recreation.gov requires camping within Eightmile/Caroline. [Read the zone text](https://www.recreation.gov/permits/233273).
+The Eightmile/Caroline trips in these reports ran one night, at Lake Caroline or Eightmile Lake, with a walk up to Windy Pass. Two had planned a second night. Every night stays in that zone, so a longer trip adds days from those lakes. Recreation.gov requires camping within Eightmile/Caroline. [Read the zone text](https://www.recreation.gov/permits/233273).
 
 The mapped Eightmile lines are separate from the traverse. Lake Caroline is about 4.8 mapped miles from Eightmile Trailhead. The longer Core accounts do not describe this trail system.
 

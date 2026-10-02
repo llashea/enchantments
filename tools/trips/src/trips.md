@@ -5,6 +5,20 @@ description: Compare trailheads by Enchantments permit zone. See agency rules, m
 
 Your permit zone decides where you can camp. Your number of nights does not change that rule. Core permit holders have two approaches. Eightmile/Caroline starts on a separate trail system. The other zones have their own camping restrictions.
 
+## Most permits are for the outer zones
+
+Recreation.gov's daily quotas for the 2026 season, checked September 28, 2026.
+
+| Zone | Each day |
+|---|---|
+| Colchuck | 3 groups |
+| Stuart | 4 groups |
+| Snow | 5 groups |
+| Eightmile/Caroline | 3 groups |
+| Core Enchantment | 24 people |
+
+The four outer zones admit 15 groups a day between them. The Core admits 24 people. One permit from each zone is held for the daily lottery. [Read the permit page](https://www.recreation.gov/permits/233273). The trip reports lean the other way. 14 of the 30 camped in the Core.
+
 ## How many nights, at a glance
 
 Each length page has the usual trip as a day-by-day table.
@@ -73,7 +87,7 @@ The hiker evidence here comes from 30 overnight reports dated 2013 to 2026, read
 
 ## Do you carry your pack up or down Aasgard Pass?
 
-Fifteen reports describe carrying overnight packs over Aasgard Pass. Thirteen carried them up and three down. One did both. [WTA writer clandry](https://www.wta.org/go-hiking/trip-reports/trip_report.2022-08-29.2880102745) and [Alec Sills-Trausch](https://explorewithalec.com/you-dont-need-to-thru-hike-the-enchantments/) disliked descending with packs. These accounts do not establish a direction for you. Neither agency names a traverse direction.
+Fifteen reports describe carrying overnight packs over Aasgard Pass. Thirteen carried them up and three down. One did both. [WTA writer clandry](https://www.wta.org/go-hiking/trip-reports/trip_report.2022-08-29.2880102745) and [Alec Sills-Trausch](https://explorewithalec.com/you-dont-need-to-thru-hike-the-enchantments/) disliked descending with packs. Neither agency names a traverse direction.
 
 Recreation.gov's caution covers both directions. “Use extreme caution when climbing or descending steep snow slopes, exposed and hidden creeks and waterfalls are present.” [Read the full caution](https://www.recreation.gov/permits/233273).
 
