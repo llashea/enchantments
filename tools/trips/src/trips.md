@@ -5,6 +5,18 @@ description: Compare trailheads by Enchantments permit zone. See agency rules, m
 
 Your permit zone decides where you can camp. Your number of nights does not change that rule. Core permit holders have two approaches. Eightmile/Caroline starts on a separate trail system. The other zones have their own camping restrictions.
 
+## How many nights, at a glance
+
+| Nights | What most parties did | Reports |
+|---|---|---|
+| 1 | Camped outside the Core and went out the way they came in | 4 of 7 |
+| 2 | One camp outside the Core both nights, a day hike into the Core | 7 of 9 |
+| 3 | Colchuck Lake, a camp in the Core, then the Core or Nada Lake, out at Snow Lakes | 3 of 9. 7 of 9 camped in the Core |
+| 4 or 5 | Colchuck Lake, then a new Core camp every night or two, out at Snow Lakes | 4 of 5 |
+| 6 or 7 | No report found | 0 |
+
+Each length has its own page: [one night](/trips/1-night/), [two nights](/trips/2-nights/), [three nights](/trips/3-nights/), [four to seven nights](/trips/4-to-7-nights/).
+
 The hiker evidence here comes from 30 overnight reports dated 2013 to 2026, read September 28, 2026. Fourteen are Washington Trails Association reports. The sample leans toward Core trips. Fourteen parties camped there. Some writers did not state their permit zone, so their camps do not establish which permit they held.
 
 ## If you have a Core permit

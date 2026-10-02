@@ -5,6 +5,17 @@ description: Five reports describe four or five nights in the Enchantments. None
 
 The evidence for longer trips is thin. Three reports describe four nights and two describe five. None describes six or seven nights. All five included camps in the Core. This sample cannot supply a seven-night itinerary for you.
 
+## What most parties did
+
+Five trips ran four or five nights. All five camped in the Core. Four described the same shape.
+
+1. **Night 1, Colchuck Lake.** About 4.0 mapped miles from Stuart Lake Trailhead. One party spent two nights there.
+2. **Up Aasgard Pass with full packs, then a new camp in the Core every night or two.** Camps named: past Isolation Lake, Inspiration Lake, Perfection Lake, Sprite Lake, Leprechaun Lake and below Lake Viviane.
+3. **Last night, Leprechaun Lake, below Lake Viviane, Snow Lakes or Nada Lake.** Leprechaun Lake leaves about 9.7 mapped miles to Snow Lakes Trailhead. Snow Lakes leave about 6.9. Nada Lake leaves about 5.8.
+4. **Out to Snow Lakes Trailhead.**
+
+No trip of six or seven nights turned up in the reports read.
+
 The wider sample contains 30 overnight reports dated 2013 to 2026, read September 28, 2026. Fourteen are Washington Trails Association reports. It leans toward Core trips. Some writers do not state which permit they held. A camp described in a report is not proof of permission to camp there.
 
 ## If you have a Core permit

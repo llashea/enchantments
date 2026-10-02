@@ -5,6 +5,15 @@ description: Eight of nine two-night Enchantments reports kept one camp. See the
 
 Eight of nine two-night reports kept one camp for both nights. Those parties used the middle day for a walk or climb. The ninth report does not say whether camp moved. Staying put was a pattern in these accounts, not an agency itinerary.
 
+## What most parties did
+
+Seven of the nine two-night trips camped at one lake outside the Core both nights. They spent the middle day on a day hike, often into the Core.
+
+- **Snow Lakes side, 3 trips.** Day 1: Snow Lakes Trailhead to Upper Snow Lake (about 6.9 mapped miles). Day 2: day packs up into the Core. One reached Inspiration Lake. Day 3: out the same way.
+- **Colchuck, 2 trips.** Day 1: Stuart Lake Trailhead to Colchuck Lake (about 4.0 mapped miles). Day 2: day packs up Aasgard Pass as far as Crystal Lake, or a day trip to Stuart Lake. Day 3: out the same way.
+- **Stuart, 2 trips.** Day 1: Stuart Lake Trailhead to Lake Stuart (4.5 miles, per the Forest Service). Day 2: one party went up Aasgard and back, about 13 miles and 12 hours. The other went to Horseshoe Lake. Day 3: out the same way.
+- **Core, 2 trips.** Day 1: Stuart Lake Trailhead, up Aasgard Pass with full packs, camp in the upper Core. Day 2: in the Core. Day 3: out to Snow Lakes Trailhead. One called it a long walk out.
+
 The wider sample contains 30 overnight reports dated 2013 to 2026, read September 28, 2026. Fourteen are Washington Trails Association reports. The sample leans toward Core trips. Some writers did not state their permit zone. The sections below distinguish their camps from the agency's rules for your permit.
 
 ## If you have a Core permit

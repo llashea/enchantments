@@ -40,6 +40,15 @@ ZONE_ANCHORS = {
     "stuart": "stuart",
     "eightmile/caroline": "eightmile-caroline",
 }
+TRIP_CSS = (
+    "<style>.tripCopy p{margin:0 0 16px}.tripCopy section>p:last-child{margin-bottom:0}"
+    ".tripCopy h2{font-size:clamp(28px,3.4vw,38px);line-height:1.15;margin-bottom:18px}"
+    ".tripCopy li{margin:0 0 10px}.tripCopy ol,.tripCopy ul{margin:0 0 16px}"
+    ".tripCopy strong{color:var(--text,#1b1f1c);font-weight:700}"
+    ".tripCopy table{width:100%;border-collapse:collapse;font-size:14px;margin:0 0 16px}"
+    ".tripCopy th,.tripCopy td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}"
+    ".tripCopy .tableWrap{overflow-x:auto}</style>"
+)
 CHECKED = "Agency facts checked September 28, 2026, for the 2026 season. Trip reports read September 28, 2026."
 
 
@@ -62,7 +71,7 @@ def body_html(md: str) -> tuple[str, str, str, list[tuple[str, str]]]:
     h1 = re.match(r"#\s+(.+)", md).group(1).strip()
     rest = md.split("\n", 1)[1].strip()
     lede, _, rest = rest.partition("\n\n")
-    out = markdown.markdown(rest)
+    out = markdown.markdown(rest, extensions=["tables"])
     toc = []
 
     def h2(m: re.Match) -> str:
@@ -72,6 +81,21 @@ def body_html(md: str) -> tuple[str, str, str, list[tuple[str, str]]]:
         return f'<h2 id="{zid}">{m.group(1)}</h2>'
 
     out = re.sub(r"<h2>(.*?)</h2>", h2, out)
+    # One <section> per heading, like the packing page: the site's legal-page
+    # styles space and divide sections, not bare headings (Leah, 10/2:
+    # "formatting dude").
+    parts = [p for p in re.split(r'(?=<h2 id=")', out) if p.strip()]
+
+    def wrap(part: str) -> str:
+        m = re.match(r'<h2 id="([^"]+)">', part)
+        if not m:
+            return f"<section>{part}</section>"
+        # The id moves to the section, so an anchor lands above the heading.
+        return f'<section id="{m.group(1)}">' + part.replace(m.group(0), "<h2>", 1) + "</section>"
+
+    out = "".join(wrap(p) for p in parts)
+    # A table scrolls sideways inside its own box on a phone.
+    out = out.replace("<table>", '<div class="tableWrap"><table>').replace("</table>", "</table></div>")
     return h1, markdown.markdown(lede), out, toc
 
 
@@ -93,6 +117,8 @@ def page(slug: str, out_dir: str, depth: int) -> str:
     page_t = f"{title} — Enchantments Traverse Planner"
     head = head.replace(old_t, html.escape(page_t, quote=False)).replace(old_d, html.escape(desc))
     head = head.replace(f"{SITE}/packing/", f"{SITE}/{out_dir}/")
+    # Trip pages are prose with labeled paragraphs; the legal styles set p margins to 0.
+    head = head.replace("</head>", TRIP_CSS + "</head>", 1)
     head = head.replace('href="../', f'href="{up}').replace('src="../', f'src="{up}')
     # nav: the template is the packing page, so Packing list is the current
     # link there. Here it is a plain link, and Trips is current on /trips/.
@@ -103,9 +129,9 @@ def page(slug: str, out_dir: str, depth: int) -> str:
     aside = "".join(f'<a href="#{i}">{html.escape(t)}</a>' for i, t in toc)
     main = (
         f'<main class="legalPage" id="main-content"><header class="legalHero shell"><p class="eyebrow">Trips</p>'
-        f"<h1>{html.escape(h1)}</h1>{external(lede)}<p class=\"affiliate\">{CHECKED}</p></header>"
+        f"<h1>{html.escape(h1)}</h1>{external(lede)}<p class=\"updated\">{CHECKED}</p></header>"
         f'<div class="legalLayout shell"><aside aria-label="On this page">{aside}</aside>'
-        f'<article class="legalCopy">{external(rest)}</article></div>'
+        f'<article class="legalCopy tripCopy">{external(rest)}</article></div>'
     )
     return head + main + foot
 

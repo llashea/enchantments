@@ -5,6 +5,17 @@ description: Nine three-night Enchantments reports show five trip shapes. Compar
 
 Nine reports describe three-night trips. Seven included camps in the Core. One stayed at Colchuck Lake. One camped at Upper Snow Lake and Nada Lake. Your permit zone still governs where you camp, regardless of how many nights you have.
 
+## What most parties did
+
+Seven of the nine three-night trips camped in the Core. The usual shape crossed from Stuart Lake Trailhead to Snow Lakes Trailhead.
+
+1. **Night 1, Colchuck Lake.** About 4.0 mapped miles from Stuart Lake Trailhead.
+2. **Night 2, in the Core.** Up Aasgard Pass with full packs in the morning. Camps were at Inspiration Lake (about 7.1 mapped miles from the start) or Leprechaun Lake (about 8.2).
+3. **Night 3, the Core again or Nada Lake.** From Nada Lake it is about 5.8 mapped miles to the trailhead. From Inspiration Lake it is about 10.8. One party that stayed at Inspiration called the last day more than 12 miles out in heat.
+4. **Day 4, out to Snow Lakes Trailhead.**
+
+Three trips crossed this way. Two spent night 1 at Colchuck Lake. The third went over Aasgard on day 1 and camped in the Core. The other shapes: Colchuck Lake all three nights with a day trip up Aasgard. Snow Lakes twice, then Nada Lake. Up and back down Aasgard with full packs, out the way they came. In and out of Snow Lakes Trailhead with two nights at Leprechaun Lake.
+
 The wider sample contains 30 overnight reports dated 2013 to 2026, read September 28, 2026. Fourteen are Washington Trails Association reports. It leans toward Core trips. Some parties did not state their permit zone. Their reported camps do not establish permission for your trip.
 
 ## If you have a Core permit
