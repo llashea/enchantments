@@ -1,9 +1,9 @@
 {
   "source": "NOAA NOHRSC SNODAS via NSIDC G02158",
   "citation": "National Operational Hydrologic Remote Sensing Center. 2004. Snow Data Assimilation System (SNODAS) Data Products at NSIDC, Version 1. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. https://doi.org/10.7265/N5TB14TC.",
-  "productDate": "2026-10-06",
-  "validTime": "2026-10-06T06:00:00Z",
-  "generated": "2026-10-06T19:38:32Z",
+  "productDate": "2026-10-07",
+  "validTime": "2026-10-07T06:00:00Z",
+  "generated": "2026-10-07T20:02:57Z",
   "units": "mm",
   "gridKm": 1,
   "points": [
@@ -77,7 +77,7 @@
       "triplet": "1338:WA:SNTL",
       "name": "Icicle Creek",
       "elevationFt": 4550,
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "depthIn": 0
     }
   ]
