@@ -1,9 +1,9 @@
 {
   "source": "NOAA NOHRSC SNODAS via NSIDC G02158",
   "citation": "National Operational Hydrologic Remote Sensing Center. 2004. Snow Data Assimilation System (SNODAS) Data Products at NSIDC, Version 1. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. https://doi.org/10.7265/N5TB14TC.",
-  "productDate": "2026-10-13",
-  "validTime": "2026-10-13T06:00:00Z",
-  "generated": "2026-10-13T20:18:06Z",
+  "productDate": "2026-10-14",
+  "validTime": "2026-10-14T06:00:00Z",
+  "generated": "2026-10-14T18:47:00Z",
   "units": "mm",
   "gridKm": 1,
   "points": [
@@ -29,7 +29,7 @@
       "lat": 47.480785,
       "lon": -120.822454,
       "heightFt": 7792,
-      "depthMm": 48
+      "depthMm": 25
     },
     {
       "id": "water-perfection-lake",
@@ -37,7 +37,7 @@
       "lat": 47.480206,
       "lon": -120.797163,
       "heightFt": 7100,
-      "depthMm": 57
+      "depthMm": 12
     },
     {
       "id": "water-lake-viviane",
@@ -45,7 +45,7 @@
       "lat": 47.482487,
       "lon": -120.78378,
       "heightFt": 6785,
-      "depthMm": 58
+      "depthMm": 7
     },
     {
       "id": "water-snow-lakes",
@@ -53,7 +53,7 @@
       "lat": 47.483065,
       "lon": -120.749933,
       "heightFt": 5433,
-      "depthMm": 44
+      "depthMm": 1
     },
     {
       "id": "water-nada-lake",
@@ -61,7 +61,7 @@
       "lat": 47.4945,
       "lon": -120.7406,
       "heightFt": 4934,
-      "depthMm": 29
+      "depthMm": 0
     },
     {
       "id": "access-snow-lakes-trailhead",
@@ -77,8 +77,8 @@
       "triplet": "1338:WA:SNTL",
       "name": "Icicle Creek",
       "elevationFt": 4550,
-      "date": "2026-10-12",
-      "depthIn": 0
+      "date": "2026-10-13",
+      "depthIn": 1
     }
   ]
 }
