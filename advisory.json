@@ -27,10 +27,10 @@
       "sourceUrl": "https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts"
     }
   ],
-  "sourcesRevision": "50ea566d27b7a494",
+  "sourcesRevision": "e010c4933998979a",
   "checkedRevision": "b3bff38c3cad54fe",
-  "sourcesChangedOn": "2026-11-01",
+  "sourcesChangedOn": "2026-11-02",
   "sourcesChanged": [
-    "alert added: updated-little-giant-fire-closure-order-wenatchee-river-and-entiat"
+    "alert removed: little-giant-fire-closure-order-reduced-wenatchee-river-and-entiat"
   ]
 }
