@@ -1,9 +1,9 @@
 {
   "source": "NOAA NOHRSC SNODAS via NSIDC G02158",
   "citation": "National Operational Hydrologic Remote Sensing Center. 2004. Snow Data Assimilation System (SNODAS) Data Products at NSIDC, Version 1. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. https://doi.org/10.7265/N5TB14TC.",
-  "productDate": "2026-11-22",
-  "validTime": "2026-11-22T06:00:00Z",
-  "generated": "2026-11-22T20:47:02Z",
+  "productDate": "2026-11-23",
+  "validTime": "2026-11-23T06:00:00Z",
+  "generated": "2026-11-24T01:46:06Z",
   "units": "mm",
   "gridKm": 1,
   "points": [
@@ -13,7 +13,7 @@
       "lat": 47.527755,
       "lon": -120.820866,
       "heightFt": 3435,
-      "depthMm": 89
+      "depthMm": 101
     },
     {
       "id": "water-colchuck-lake",
@@ -21,7 +21,7 @@
       "lat": 47.493152,
       "lon": -120.833794,
       "heightFt": 5571,
-      "depthMm": 309
+      "depthMm": 325
     },
     {
       "id": "landmark-aasgard-pass",
@@ -29,7 +29,7 @@
       "lat": 47.480785,
       "lon": -120.822454,
       "heightFt": 7792,
-      "depthMm": 446
+      "depthMm": 463
     },
     {
       "id": "water-perfection-lake",
@@ -37,7 +37,7 @@
       "lat": 47.480206,
       "lon": -120.797163,
       "heightFt": 7100,
-      "depthMm": 490
+      "depthMm": 507
     },
     {
       "id": "water-lake-viviane",
@@ -45,7 +45,7 @@
       "lat": 47.482487,
       "lon": -120.78378,
       "heightFt": 6785,
-      "depthMm": 511
+      "depthMm": 528
     },
     {
       "id": "water-snow-lakes",
@@ -53,7 +53,7 @@
       "lat": 47.483065,
       "lon": -120.749933,
       "heightFt": 5433,
-      "depthMm": 221
+      "depthMm": 249
     },
     {
       "id": "water-nada-lake",
@@ -61,7 +61,7 @@
       "lat": 47.4945,
       "lon": -120.7406,
       "heightFt": 4934,
-      "depthMm": 173
+      "depthMm": 199
     },
     {
       "id": "access-snow-lakes-trailhead",
@@ -69,7 +69,7 @@
       "lat": 47.544083,
       "lon": -120.709661,
       "heightFt": 1299,
-      "depthMm": 13
+      "depthMm": 41
     }
   ],
   "snotel": [
@@ -77,8 +77,8 @@
       "triplet": "1338:WA:SNTL",
       "name": "Icicle Creek",
       "elevationFt": 4550,
-      "date": "2026-11-21",
-      "depthIn": 2
+      "date": "2026-11-22",
+      "depthIn": 3
     }
   ]
 }
